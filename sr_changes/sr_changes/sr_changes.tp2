@@ -1,0 +1,54 @@
+BACKUP ~z_MnG_4_5_bard_flag_hotfix/backup~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~revert some SR spells~
+
+// change haste back to real haste effect
+COPY_EXISTING ~msectype.2da~ ~override~
+  READ_2DA_ENTRIES_NOW rows 2
+  FOR (row = 1; row < rows; ++row) BEGIN 
+	READ_2DA_ENTRY_FORMER rows row 0 ~sectype~ 
+	PATCH_IF (~%sectype%~ STRING_EQUAL_CASE ~k1#Haste~) BEGIN
+	  SET k1haste_row = (%row% - 1)
+	END
+	PATCH_IF (~%sectype%~ STRING_EQUAL_CASE ~k1#Slow~) BEGIN
+	  SET k1slow_row = (%row% - 1)
+	END
+  END
+BUT_ONLY
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
+  PATCH_IF (~%SOURCE_SIZE%~ > ~0x71~) BEGIN
+    READ_BYTE 0x27 stype
+    PATCH_IF (stype = %k1haste_row%) BEGIN
+      LPF ALTER_EFFECT INT_VAR match_opcode = 176 opcode = 16 parameter2 = 0 END
+      LPF DELETE_EFFECT INT_VAR match_opcode = 1 END
+    END
+  END
+BUT_ONLY
+
+COPY_EXISTING ~spwi613.spl~ ~override~
+  LPF ALTER_EFFECT INT_VAR match_opcode = 176 opcode = 16 parameter2 = 1 END
+  LPF ALTER_EFFECT INT_VAR match_opcode = 16 parameter2 = 1 END
+  LPF DELETE_EFFECT INT_VAR match_opcode = 1 END
+IF_EXISTS BUT_ONLY
+
+// make Slow save at -4
+COPY_EXISTING ~spwi312.spl~ ~override~
+  LPF ALTER_SPELL_EFFECT INT_VAR savebonus = (0 - 4) END
+IF_EXISTS BUT_ONLY
+
+// add death spell effect to banishment
+COPY_EXISTING ~spwi605.spl~ ~override~
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 55 power = 6 parameter2 = 2 timing = 1 resist_dispel = 1 dicenumber = 8 END
+IF_EXISTS BUT_ONLY
+
+// revert Blur save bonus
+COPY_EXISTING ~spwi201.spl~ ~override~
+  LPF ALTER_EFFECT INT_VAR match_opcode = 37 opcode = 325 parameter1 = 1 END
+IF_EXISTS BUT_ONLY
+
+// add spell turning back
