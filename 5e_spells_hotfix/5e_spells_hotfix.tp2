@@ -8,8 +8,8 @@ BEGIN ~fix 5e spells~
 
 
 COPY_EXISTING_REGEXP GLOB ~^D5Z[1-9][0-9][0-9]I.SPL$~ ~override~
-  LPF ALTER_EFFECT INT_VAR match_opcode = 326 opcode = 146 parameter1 = 0 parameter2 = 1 STR_VAR match_resource = ~d5zspld~ END
-  LPF ALTER_EFFECT INT_VAR match_opcode = 326 opcode = 146 parameter1 = 0 parameter2 = 1 STR_VAR match_resource = ~d5zspla~ END
+  LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 326 opcode = 146 parameter1 = 0 parameter2 = 1 STR_VAR match_resource = ~d5zspld~ END
+  LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 326 opcode = 146 parameter1 = 0 parameter2 = 1 STR_VAR match_resource = ~d5zspla~ END
 BUT_ONLY
 
 ACTION_IF (FILE_CONTAINS_EVALUATED (~splstate.ids~ ~D5_SEMI_ARCANE~)) BEGIN
@@ -64,7 +64,7 @@ ACTION_IF (FILE_EXISTS_IN_GAME ~qdtnb_arcanist.qd~) BEGIN
 	READ_2DA_ENTRIES_NOW rows cols
 	FOR (row = 1; row < rows; ++row) BEGIN
 	  READ_2DA_ENTRY_FORMER rows row 0 ~code~
-	  READ_2DA_ENTRY_FORMER rows row 0 ~kit~
+	  READ_2DA_ENTRY_FORMER rows row 1 ~kit~
 	  PATCH_IF ~%kit%~ STRING_EQUAL_CASE ~D5_ARCANIST~ BEGIN
 	    SET arcanist_code = %code%
 	  END
