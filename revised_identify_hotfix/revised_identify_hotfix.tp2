@@ -1,0 +1,30 @@
+BACKUP ~revised_identify_hotfix/backup~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~Fix Revised Identification~
+
+ACTION_IF (GAME_IS ~bgee bg2ee eet~) BEGIN
+	APPEND ~hidespl.2da~ ~spwi110	1		0		0~
+END
+ACTION_IF (GAME_IS ~iwdee~) BEGIN
+	APPEND ~hidespl.2da~ ~spwi110	1		0~
+END
+COPY_EXISTING ~spell.ids~ ~override~
+	REPLACE_TEXTUALLY ~WIZARD_IDENTIFY~ ~WIZARD_IDENTIFY_OLD~
+
+ADD_SPELL ~override/d5tb110.spl~ 2 1 WIZARD_IDENTIFY
+LAF RES_NUM_OF_SPELL_NAME
+	STR_VAR spell_name = ~WIZARD_IDENTIFY~
+	RET spell_res
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~scrl75.itm~ THEN BEGIN
+  COPY_EXISTING ~scrl75.itm~ ~override~
+	LPF ALTER_ITEM_HEADER INT_VAR target = 5 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 146 STR_VAR resource = EVAL ~%spell_res%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 147 STR_VAR resource = EVAL ~%spell_res%~ END
+  BUT_ONLY
+END

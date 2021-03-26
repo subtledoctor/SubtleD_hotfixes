@@ -24,3 +24,9 @@ Fixes a pretty serious flaw in the 0.6 version of the 5E Spellcasting Conversion
 This will be irrelevant as of v0.7 of the 5E Casting mod.
 For the Arcanist kit, this will be irrelevant as of Tome & Blood v0.9.8.
 For Revised Bards, this will be irrelevant as of Might & Guile v4.11.1
+
+v5. Revised Identify Hotfix
+
+This makes the Revised Identify spell work if you installed it via Tome & Blood 0.9.6 - 0.9.9.
+
+This is irrelevant as of Tome & Blood v0.9.10.
