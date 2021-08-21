@@ -30,3 +30,9 @@ v5. Revised Identify Hotfix
 This makes the Revised Identify spell work if you installed it via Tome & Blood 0.9.6 - 0.9.9.
 
 This is irrelevant as of Tome & Blood v0.9.10.
+
+v6. 5E Casting Priests
+
+This fixes v0.9 of the 5E Casting mod such that priest spell slots are properly affected.
+
+This is irrelevant as of v1.0 of the 5E Casting mod.
