@@ -36,3 +36,9 @@ v6. 5E Casting Priests
 This fixes v0.9 of the 5E Casting mod such that priest spell slots are properly affected.
 
 This is irrelevant as of v1.0 of the 5E Casting mod.
+
+v7. FnP Hivekeeper Rhino Beetle Form
+
+This fixes a bug that crashes the game when you shapeshift into a Rhino Beetle
+
+This is irrelevant as of v0.79.30 of Faiths & Powers.
