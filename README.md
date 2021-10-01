@@ -42,3 +42,9 @@ v7. FnP Hivekeeper Rhino Beetle Form
 This fixes a bug that crashes the game when you shapeshift into a Rhino Beetle
 
 This is irrelevant as of v0.79.30 of Faiths & Powers.
+
+v8. SoB Robes Spellcasting Hotfix
+
+This fixes items of type=2 ("armor") such as mage robes that had an errant opcode 145 effect applied by the YARAS component of Scales of Blance v5.33.
+
+This is irrelevant as of v5.33.2 of Scales of Balance.
