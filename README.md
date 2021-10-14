@@ -48,3 +48,9 @@ v8. SoB Robes Spellcasting Hotfix
 This fixes items of type=2 ("armor") such as mage robes that had an errant opcode 145 effect applied by the YARAS component of Scales of Blance v5.33.
 
 This is irrelevant as of v5.33.2 of Scales of Balance.
+
+v9. SoB Crossbow Crash Hotfix
+
+This fixes light crossbows which had their "2-handed" flag removed by the "Functional Weapon Tweaks" component of Scales of Blance v5.33. This hotfix only installs on the pre-EE engine, where the missing flag will cause a crash.
+
+This is irrelevant as of v5.34 of Scales of Balance.

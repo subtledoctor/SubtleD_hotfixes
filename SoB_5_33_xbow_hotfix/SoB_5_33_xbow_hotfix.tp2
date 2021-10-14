@@ -1,0 +1,28 @@
+BACKUP ~SoB_5_33_xbow_hotfix/backup~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~fix crossbow crash~
+REQUIRE_PREDICATE !(GAME_IS ~bgee bg2ee iwdee eet~) ~wrong game~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~scales_of_balance.tp2~ ~102~) ~wrong mod~
+
+COPY_EXISTING ~xbow04.itm~ ~override~
+	READ_LONG 0x08 light_xbow_strref
+BUT_ONLY
+
+COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
+  PATCH_IF (~%SOURCE_SIZE%~ > ~0x71~) BEGIN
+	READ_SHORT ~0x1c~ ~type~
+	PATCH_IF (%type% = 27) BEGIN // crossbows
+	  READ_LONG 0x08 gen_name_strref
+	  PATCH_IF (GAME_IS ~bgee bg2ee iwdee eet~) BEGIN
+	    PATCH_IF (gen_name_strref = %light_xbow_strref%) BEGIN
+		  READ_BYTE 0x18 handed
+		  WRITE_BYTE 0x18 (~%handed%~ BOR ~0b00000010~)
+	    END
+	  END
+    END
+  END
+BUT_ONLY
