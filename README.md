@@ -54,3 +54,9 @@ v9. SoB Crossbow Crash Hotfix
 This fixes light crossbows which had their "2-handed" flag removed by the "Functional Weapon Tweaks" component of Scales of Blance v5.33. This hotfix only installs on the pre-EE engine, where the missing flag will cause a crash.
 
 This is irrelevant as of v5.34 of Scales of Balance.
+
+v10. Spell Revisions and breaking invisibility in EE v2.6+
+
+This sets the appropriate flags in spells overwritten or added by SR 4b18, such that they break invisibility and sanctuary properly in the EE v2.6 engine.
+
+This is irrelevant as of Spell Revisions v4 beta 19

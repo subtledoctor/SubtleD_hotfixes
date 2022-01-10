@@ -1,0 +1,13 @@
+BACKUP ~spell_rev_2_6_break_invisibility/backup~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~fix SR spells breaking invisibility in EE 2.6~
+REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee iwdee eet~) ~wrong game~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev.tp2~ ~0~) ~wrong mod~
+
+INCLUDE ~spell_rev_2_6_break_invisibility\lib\break_invisibility_hotfix.tph~
+
+LAF ee_sanctuary_invisibility END
