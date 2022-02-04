@@ -65,3 +65,8 @@ v11. NPC_EE Upgrade from v4 -> v5
 
 This can be installed over NPC_EE v4 on an existing game and will update the functionality to v5. On new games, just install NPC_EE v5.
 
+v12. Sorcerer spell learning fix for Tome & Blood v0.9.23
+
+This fixes single-class sorcerer spell learning when "Sorcerer Spell Switching" is installed from Tome & Blood v0.9.23.
+
+This is irrelevant as of Tome & Blood v0.9.24
