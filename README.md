@@ -60,3 +60,8 @@ v10. Spell Revisions and breaking invisibility in EE v2.6+
 This sets the appropriate flags in spells overwritten or added by SR 4b18, such that they break invisibility and sanctuary properly in the EE v2.6 engine.
 
 This is irrelevant as of Spell Revisions v4 beta 19
+
+v11. NPC_EE Upgrade from v4 -> v5
+
+This can be installed over NPC_EE v4 on an existing game and will update the functionality to v5. On new games, just install NPC_EE v5.
+
