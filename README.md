@@ -70,3 +70,9 @@ v12. Sorcerer spell learning fix for Tome & Blood v0.9.23
 This fixes single-class sorcerer spell learning when "Sorcerer Spell Switching" is installed from Tome & Blood v0.9.23.
 
 This is irrelevant as of Tome & Blood v0.9.24
+
+v13. 5E casting fatigue fix
+
+This fixes the Prepare Spells ability in certain edge-case circumstances for 5E Casting v1.5.2, Might & Guile v4.17.2, and Tome & Blood v0.9.25.1.
+
+This is irrelevant as of 5E Casting v1.5.3, Might & Guile v4.17.2, and Tome & Blood v0.9.25.2

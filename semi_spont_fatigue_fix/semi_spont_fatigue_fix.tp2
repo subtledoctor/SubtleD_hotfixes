@@ -1,0 +1,15 @@
+BACKUP ~semi_spont_fatigue_fix/backup~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~Fix Semi-Spontaneous Spell Preparation~
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~d5__semi_spont.d5~) ~not needed~
+
+COPY_EXISTING ~d5zprp.spl~ ~override~
+  LPF DELETE_EFFECT INT_VAR match_opcode = 93 END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 93 target = 1 parameter1 = 1 parameter2 = 0 timing = 1 END
+  
+COPY_EXISTING ~d5zprpd.spl~ ~override~
+  LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 171 timing = 4 duration = 6 STR_VAR match_resource = ~d5zprp~ END
