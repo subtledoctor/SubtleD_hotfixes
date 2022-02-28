@@ -76,3 +76,9 @@ v13. 5E casting fatigue fix
 This fixes the Prepare Spells ability in certain edge-case circumstances for 5E Casting v1.5.2, Might & Guile v4.17.2, and Tome & Blood v0.9.25.1.
 
 This is irrelevant as of 5E Casting v1.5.3, Might & Guile v4.17.2, and Tome & Blood v0.9.25.2
+
+v14. Fix for 5E slot-doubling in armor
+
+Attempted fix for occasional superficial slot-doubling bug with MnG bards in leather armor
+
+This should be irrelevant as of 5E casting v1.7.1 and Might & Guile v4.18.4
