@@ -82,3 +82,9 @@ v14. Fix for 5E slot-doubling in armor
 Attempted fix for occasional superficial slot-doubling bug with MnG bards in leather armor
 
 This should be irrelevant as of 5E casting v1.7.1 and Might & Guile v4.18.4
+
+v15. MBR sectype fix
+
+This fixes the interactions of various spells modified by the Magic Battles Revised v1.3 mod (Breach, Spell Shield, etc.) with secondary types when using opcodes 221 and 230.
+
+This is irrelevant as of Magic Battles Revised version 1.4.

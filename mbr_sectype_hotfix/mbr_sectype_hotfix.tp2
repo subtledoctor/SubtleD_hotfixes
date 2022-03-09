@@ -1,0 +1,138 @@
+BACKUP ~mbr_sectype_hotfix/backup~
+AUTHOR ~SubtleD~
+
+
+BEGIN ~fix secondary types~
+
+COPY_EXISTING ~msectype.2da~ ~override~
+  COUNT_2DA_ROWS 2 rows
+  FOR (row = 1; row < rows; ++row) BEGIN
+    READ_2DA_ENTRY row 0 2 sec_typ
+    PATCH_IF (~%sec_typ%~ STRING_EQUAL_CASE ~breach~) BEGIN
+      SET breach_sectype = (row - 1)
+    END
+    PATCH_IF (~%sec_typ%~ STRING_EQUAL_CASE ~spellshield~) BEGIN
+      SET spellshield_sectype = (row - 1)
+    END
+    PATCH_IF (~%sec_typ%~ STRING_EQUAL_CASE ~k1#Dispel~) BEGIN
+      SET k1_dispel_sectype = (row - 1)
+    END
+  END
+IF_EXISTS BUT_ONLY
+
+ACTION_FOR_EACH br_spl IN ~spwi513~ ~dfp2513~ ~d5f2513~ ~d5_rabre~ BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%br_spl%.spl~) BEGIN
+    COPY_EXISTING ~%br_spl%.spl~ ~override~
+	  PATCH_IF (VARIABLE_IS_SET %breach_sectype%) BEGIN
+	    WRITE_BYTE 0x27 %breach_sectype%
+	  END
+	  ELSE BEGIN
+	    WRITE_BYTE 0x27 0
+	  END
+	BUT_ONLY
+  END
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~spwi513b.spl~) BEGIN
+  OUTER_SET entropy_shield_num = IDS_OF_SYMBOL (~spell~ ~CLERIC_ENTROPY_SHIELD~)
+  ACTION_IF (entropy_shield_num > 0) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME
+	  STR_VAR spell_name = ~CLERIC_ENTROPY_SHIELD~
+	  RET spell_res
+    END
+    ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_res%.spl~) BEGIN
+      COPY_EXISTING ~%spell_res%.spl~ ~override~
+        PATCH_IF (FILE_EXISTS_IN_GAME ~k1#scre.spl~) AND (VARIABLE_IS_SET %k1_dispel_sectype%) BEGIN
+          WRITE_BYTE 0x27 %k1_dispel_sectype%
+        END
+      BUT_ONLY
+    END
+  END
+END
+
+COPY_EXISTING ~spwi513c.spl~ ~override~
+    PATCH_IF (VARIABLE_IS_SET %k1_dispel_sectype%) BEGIN
+      LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %k1_dispel_sectype% END
+      LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %k1_dispel_sectype% END
+    END
+IF_EXISTS BUT_ONLY
+
+ACTION_FOR_EACH ss_spl IN ~spwi519~ ~dwsw519~ ~dw#isss~ ~zpwi519~ BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%ss_spl%.spl~) BEGIN
+    COPY_EXISTING ~%ss_spl%.spl~ ~override~
+      PATCH_IF (VARIABLE_IS_SET %spellshield_sectype%) BEGIN
+	    WRITE_BYTE 0x27 %spellshield_sectype%
+	  END
+	BUT_ONLY
+  END
+END
+
+COPY_EXISTING ~spwi321c.spl~ ~override~
+  PATCH_IF (VARIABLE_IS_SET %spellshield_sectype%) BEGIN
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %spellshield_sectype% END
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %spellshield_sectype% END
+  END
+IF_EXISTS BUT_ONLY
+
+COPY_EXISTING ~spwi419c.spl~ ~override~
+  PATCH_IF (VARIABLE_IS_SET %spellshield_sectype%) BEGIN
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %spellshield_sectype% END
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %spellshield_sectype% END
+  END
+IF_EXISTS BUT_ONLY
+
+COPY_EXISTING ~spwi608c.spl~ ~override~
+  PATCH_IF (VARIABLE_IS_SET %spellshield_sectype%) BEGIN
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %spellshield_sectype% END
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %spellshield_sectype% END
+  END
+IF_EXISTS BUT_ONLY
+
+COPY_EXISTING ~spwi704c.spl~ ~override~
+  PATCH_IF (VARIABLE_IS_SET %spellshield_sectype%) BEGIN
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %spellshield_sectype% END
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %spellshield_sectype% END
+  END
+IF_EXISTS BUT_ONLY
+
+COPY_EXISTING ~spwi705c.spl~ ~override~
+  PATCH_IF (VARIABLE_IS_SET %spellshield_sectype%) BEGIN
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %spellshield_sectype% END
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %spellshield_sectype% END
+  END
+IF_EXISTS BUT_ONLY
+
+COPY_EXISTING ~spwi805c.spl~ ~override~
+  PATCH_IF (VARIABLE_IS_SET %spellshield_sectype%) BEGIN
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %spellshield_sectype% END
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %spellshield_sectype% END
+  END
+IF_EXISTS BUT_ONLY
+
+COPY_EXISTING ~spwi903c.spl~ ~override~
+  PATCH_IF (VARIABLE_IS_SET %spellshield_sectype%) BEGIN
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %spellshield_sectype% END
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %spellshield_sectype% END
+  END
+IF_EXISTS BUT_ONLY
+
+COPY_EXISTING ~spin550c.spl~ ~override~
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %k1_dispel_sectype% END
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %k1_dispel_sectype% END
+IF_EXISTS BUT_ONLY
+
+COPY_EXISTING ~spin550d.spl~ ~override~
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %spellshield_sectype% END
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %spellshield_sectype% END
+IF_EXISTS BUT_ONLY
+
+COPY_EXISTING ~spin992c.spl~ ~override~
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %k1_dispel_sectype% END
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %k1_dispel_sectype% END
+IF_EXISTS BUT_ONLY
+
+COPY_EXISTING ~spin992d.spl~ ~override~
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 221 parameter2 = %spellshield_sectype% END
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 230 parameter2 = %spellshield_sectype% END
+IF_EXISTS BUT_ONLY
+
