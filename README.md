@@ -88,3 +88,9 @@ v15. MBR sectype fix
 This fixes the interactions of various spells modified by the Magic Battles Revised v1.3 mod (Breach, Spell Shield, etc.) with secondary types when using opcodes 221 and 230.
 
 This is irrelevant as of Magic Battles Revised version 1.4.
+
+v16. 5E Casting armor hotfix
+
+This fixes elven chain and other "caster armors" that allow arcane spellcasting, in tnhe context of the spellcasting mods.
+
+This is irrelevant as of 5E Spellcasting v1.7.2, and Might & Guile v4.18.6, and the Tome & Blood Arcanist kit v0.9.26.5.
