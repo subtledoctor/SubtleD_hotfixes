@@ -94,3 +94,7 @@ v16. 5E Casting armor hotfix
 This fixes elven chain and other "caster armors" that allow arcane spellcasting, in tnhe context of the spellcasting mods.
 
 This is irrelevant as of 5E Spellcasting v1.7.2, and Might & Guile v4.18.6, and the Tome & Blood Arcanist kit v0.9.26.5.
+
+v17. Mod to normalize kit table columns
+
+To be used before SCS v34's "NPC Customization" component.
