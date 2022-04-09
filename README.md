@@ -98,3 +98,7 @@ This is irrelevant as of 5E Spellcasting v1.7.2, and Might & Guile v4.18.6, and 
 v17. Mod to normalize kit table columns
 
 To be used before SCS v34's "NPC Customization" component.
+
+v18. Set Some Buffs to Power Level 10
+
+This is a hotfix for games with Bartimaeus' SRR variant of SR and the Magic Battles revised mod. SRR sets the power levels of some buffing spells to 0, so they can be cast on someone who has a Spell Deflection up. However this makes the MBS version of Remove magic unable to dispel those buffs. This *should* make Remove Magic work again.

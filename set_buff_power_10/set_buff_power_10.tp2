@@ -1,0 +1,139 @@
+BACKUP ~set_buff_power_10/backup~
+AUTHOR ~SubtleD, with help from Argent77~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~Set Power Level of Some Buffs to 10~
+
+ACTION_FOR_EACH spell IN
+    ~spin101~
+    ~spin102~
+    ~spcl211~
+    ~spcl213~
+    ~spcl222~
+    ~spdr401~
+    ~spra301~
+    ~spra302~
+    ~spcl233~
+    ~spin109~
+    ~spin121~
+    ~spin676~
+    ~spin827~
+    ~sppr101~
+    ~sppr103~
+    ~sppr107~
+    ~sppr108~
+    ~sppr201~
+    ~sppr202~
+    ~sppr203~
+    ~sppr212~
+    ~sppr306~
+    ~sppr307~
+    ~sppr308~
+    ~sppr312~
+    ~sppr315~
+    ~sppr317~
+    ~sppr401~
+    ~sppr403~
+    ~sppr404~
+    ~sppr406~
+    ~sppr407~
+    ~sppr408~
+    ~sppr409~
+    ~sppr413~
+    ~sppr417~
+    ~sppr502~
+    ~sppr504~
+    ~sppr507~
+    ~sppr508~
+    ~sppr509~
+    ~sppr510~
+    ~sppr514~
+    ~sppr516~
+    ~dvanigro~
+    ~spja01~
+    ~sppr607~
+    ~sppr608~
+    ~sppr711~
+    ~sppr712~
+    ~sppr713~
+    ~sppr729~
+    ~spwi108~
+    ~spwi113~
+    ~spwi114~
+    ~spwi206~
+    ~spwi209~
+    ~spwi210~
+    ~spwi214~
+    ~spwi305~
+    ~spwi307~
+    ~spwi310~
+    ~spwi319~
+    ~spwi320~
+    ~spwi405~
+    ~spwi410~
+    ~spwi413~
+    ~spwi413e~
+    ~spwi420d~
+    ~spwi512~
+    ~spwi517~
+    ~dvscreen~
+    ~spwi606~
+    ~spwi613~
+    ~spwi710d~
+    ~spwi721~
+    ~spwi802~
+    ~spwi803~
+    ~spwi809d~
+    ~spwi917~
+    ~dvmcure~
+	~amul26~
+	~misc3n~
+	~misc3o~
+	~scrl03~
+	~scrl04~
+	~scrl05~
+	~scrl06~
+	~scrl07~
+	~scrl08~
+	~scrl09~
+	~scrl15~
+BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN
+    COPY_EXISTING ~%spell%.spl~ ~override~
+      LPF ALTER_EFFECT INT_VAR silent = 1 match_power = 0 power = 10 END
+    BUT_ONLY
+  END
+END
+
+ACTION_FOR_EACH ids_spell IN
+    ~CLERIC_REGENERATE_LIGHT_WOUNDS~
+    ~CLERIC_RESIST_ELEMENTS~
+    ~CLERIC_CURE_MODERATE_WOUNDS~
+    ~CLERIC_REGENERATE_MODERATE_WOUNDS~
+    ~CLERIC_REGENERATE_MEDIUM_WOUNDS~
+    ~CLERIC_MAGIC_FANG~
+    ~CLERIC_REGENERATE_SERIOUS_WOUNDS~
+    ~CLERIC_PROTECTION_FROM_ACID~
+    ~CLERIC_PROTECTION_FROM_COLD~
+    ~CLERIC_PROTECTION_FROM_LIGHTNING~
+    ~CLERIC_PROTECTION_FROM_FIRE~
+    ~CLERIC_MASS_REGENERATE~
+    ~CLERIC_ANIMAL_GROWTH~
+    ~CLERIC_REGENERATE_CRITICAL_WOUNDS~
+    ~CLERIC_REGENERATION_DRUID_VERSION~
+    ~WIZARD_EXPEDITIOUS_RETREAT~
+    ~WIZARD_RESIST_ELEMENTS~
+    ~WIZARD_DISPELLING_SCREEN~
+BEGIN
+  OUTER_SET spell_ids = IDS_OF_SYMBOL (~spell~ ~%ids_spell%~)
+  ACTION_IF (spell_ids > 0) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL ~%ids_spell%~ RET spell_res END
+    ACTION_IF (FILE_EXISTS_IN_GAME ~%spell_res%.spl~) BEGIN
+      COPY_EXISTING ~%spell_res%.spl~ ~override~
+        LPF ALTER_EFFECT INT_VAR silent = 1 match_power = 0 power = 10 END
+      BUT_ONLY
+    END
+  END
+END
