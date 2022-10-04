@@ -1,0 +1,1039 @@
+@1 = ~pomijanie komponentu~
+@2 = ~pomijanie komponentu nie-EE ~
+@3   = ~already included~
+@4 = ~pomijanie komponentow ulepszen~
+@5 = ~pomijanie komponentow nowych podklas~
+@6 = ~...~
+@7 = ~pomijanie komponentow przedmiotow~
+@8 = ~pomijanie dla IWD~
+@9 = ~zmiany podklas~
+@10 = ~Czy chcesz zobaczyc glowna zasade rewizji?(y/n)~
+@11 = ~Tome & Blood~
+@12 = ~Kompatybilnosc z modyfikacja Spell Revisions~
+@13 = ~Zaklecia lowcy/kaplana wylaczone~
+@15 = ~Premia do rzutów obronnych przeciw czarom~
+@16 = ~Premia do rzutów obronnych przeciw śmierci~
+@17 = ~Premia do rzutów obronnych przeciw zionięciom~
+@18 = ~Premia do rzutów obronnych przeciw różdżkom~
+@19 = ~Premia do rzutów obronnych przeciw petryfikacji~
+@20 = ~Czy chcesz zobaczyc ulepszenia i zmiany w grze? (y/n)~
+@21 = ~Komponenty rewizji~
+@22 = ~Komponenty ulepszen~
+@23 = ~Komponenty nowych podklas~
+@30 = ~Czy chcesz zobaczyc nowe podklasy? (y/n)~
+@36 = ~Zalety:~
+@37 = ~Cechy:~
+@38 = ~Wady:~
+@39 = ~Ograniczenia:~
+@100 = ~IWO - Jeszcze jeden system usprawnien zbroi~
+@101 = ~IWO - Ulepszenia kosmetyczne~
+@1011 = ~Ujednolicenie Magicznych Przedmiotow~
+@1012 = ~Zastapienie Magicznych Przedmiotow Mistrzowskimi~
+@102 = ~IWO - Funkcjonalne ulepszenia broni~
+@103 = ~IWO – Odroznienie Lekkiej/Ciezkiej Broni (Przestarzale)~
+@104 = ~IWO - Ulepszenia przedmiotow IWD:EE~
+@165  = ~STO – Poprawione Tabele Rzutow Obronych~
+@107  = ~IWO - Ogranicz Styl Dwoch Broni~
+@1071  = ~Styl dwoch broni tylko male bronie~
+@1072  = ~Styl dwoch bron male/srednie bronie~
+@109  = ~IWO - Wszystkie klasy moga uzywac kazdej mikstury~
+// 
+@120   = ~WPO - Weapon Proficiency Overhaul~
+@121 = ~WPO - Zwiniecie kategorii broni~
+@122 = ~WPO - Zmiana systemu bieglosci~
+//
+@123   = ~WPO - Combat Skills System~
+@124 = ~WPO - Zmiany stylow walki~
+@125 = ~WPO - Atak na runde w podklasach~
+@150 = ~WCO (rewizja klasy maga)~
+@160 = ~STO - Rewizja rzutow obronnych~
+@170 = ~STO - IWD Unik Zaklecia~
+@171 = ~Dla zaklec IWD~
+@172 = ~Dla Rozbudowanej Listy Zaklec~
+@180 = ~MRO - Rewizja odpornosci na magie (zainstaluj po modyfikacji aTweaks!)~
+@200 = ~SBO - Rewizja premii do statystyk~
+@201 = ~SBO - Stat-based Bonus Spells~
+@202 = ~SBO - Pelna Sila tylko dla broni oburecznych~
+@204 = ~SBO - Wlacz Rzut na Koncentracje~ 
+@205 = ~SBO - Rewizja Kostek Wytrzymalosci~
+@206 = ~Hojne (ponadprzecietne) punkty zycia~
+@207 = ~Hardcorowe (blizsze usrednionym) punkty zycia~
+@208 = ~Zredukowane punkty zycia~
+@210 = ~XPO - Ujednolicone tabele PD~
+@215 = ~XPO - Mniejsza ilosc PD za walke~
+@216 = ~zabicie daje 1/10 PD~
+@217 = ~zabicie daje 1/5 PD~
+@218 = ~zabicie daje połowę PD~
+@220  = ~XPO - Choose SoD Starting XP~
+@221  = ~65,000~
+@222  = ~90,000~
+@223  = ~125,000~
+@224  = ~161,000~
+@225  = ~XPO - Choose SoA Starting XP~
+@226  = ~90,000~
+@227  = ~161,000~
+@228  = ~240,000~
+@229  = ~400,000~
+@230   = ~MRO - Magic Resistance Overhaul~
+@240   = ~POI - Poison Overhaul~
+//
+@10001 = ~^Klasa Pancerza:.+$~
+@10002 = ~Klasa Pancerza: ~
+@10003 = ~Odporność na obrażenia: ~
+@10004 = ~Kara do zręczności: -~
+@10005 = ~Kara do prędkości rzucania czarów: +~
+@10006 = ~Kara do prędkości ataku bronią: +~
+@10007  = ~Movement Speed Penalty: -~
+@10008  = ~Arcane Spell Failure Chance: ~
+@10011 = ~smok~
+@10012 = ~elfi~
+@10013 = ~elficki~
+@10014 = ~sylvański~
+@10015 = ~pieśniarz klingi~
+@10018 = ~szata~
+@10019 = ~płaszcz~
+@10021 = ~Krycie się w cieniu, Kradzież kieszonkowa: -~
+@10022 = ~Otwieranie zamków, Zastawianie pułapek: -~
+@10023 = ~Znajdowanie pułapek, Wykrycie iluzji: -~
+@10030 = ~Zbroja wiary
+
+Poziom: 1
+Sfera: Ochrona
+Zasięg: 0
+Czas działania: 3 rundy + 1 runda/poziom
+Czas rzucania: 1
+Obszar działania: rzucający czar
+Rzut obronny: Brak
+
+Rzucający Zbroję Wiary otrzymuje znaczną ochronę przeciwko atakom wręcz i pociskom. Ta magiczna, przypominająca zbroję osłona, otacza rzucającego i pochłania część przyjętych obrażeń. Dodatkowo zwiększa odporność na obrażenia wszelkiego typu o 10%.~
+@1000 = ~100: Ulepszenia przedmiotow~
+@10101 = ~Mistrzowska strzała~
+@10102 = ~Magiczna strzała~
+@10103 = ~Mistrzowski bełt~
+@10104 = ~Magiczny bełt~
+@10105 = ~Mistrzowski pocisk~
+@10106 = ~Magiczny pociski~
+@10107 = ~Mistrzowski topór bojowy~
+@10108 = ~Magiczny toporek~
+@10109 = ~Mistrzowski cep bojowy~
+@10110 = ~Mistrzowska wekiera~
+@10111 = ~Mistrzowski morgensztern~
+@10112 = ~Magiczny cep bojowy~
+@10113 = ~Magiczny morgensztern~
+@10114 = ~Mistrzowski długi łuk refleksyjny~
+@10115 = ~Mistrzowski długi łuk~
+@10116 = ~Mistrzowski krótki łuk~
+@10117 = ~Magiczny długi łuk refleksyjny~
+@10118 = ~Magiczny długi łuk~
+@10119 = ~Magiczny krótki łuk~
+@10120 = ~Mistrzowski sztylet~
+@10121 = ~Mistrzowska strzałka~
+@10122 = ~Mistrzowska halabarda~
+@10123 = ~Mistrzowski młot bojowy~
+@10124 = ~Mistrzowska proca~
+@10125 = ~Mistrzowska włócznia~
+@10126 = ~Magiczna włócznia~
+@10127 = ~Mistrzowski kij~
+@10128 = ~Magiczny kij~
+@10129 = ~Mistrzowski miecz półtoraręczny~
+@10130 = ~Mistrzowski miecz długi~
+@10131 = ~Mistrzowski miecz krótki~
+@10132 = ~Mistrzowski sejmitar~
+@10133 = ~Mistrzowska katana~
+@10134 = ~Mistrzowskie wakizashi~
+@10135 = ~Mistrzowskie ninja-to~
+@10136 = ~Drusus~
+@10137 = ~Magiczny miecz długi~
+@10138 = ~Magiczny miecz półtoraręczny~
+@10139 = ~Magiczna katana~
+@10140 = ~Mistrzowski miecz oburęczny~
+@10141 = ~Magiczny miecz oburęczny~
+@10142 = ~Mistrzowska kusza ciężka~
+@10143 = ~Mistrzowska kusza lekka~
+@10144 = ~Mistrzowska kolczuga~
+@10145 = ~Mistrzowska zbroja paskowa~
+@10146 = ~Magiczna kolczuga~
+@10147 = ~Mistrzowska zbroja skórzana~
+@10148 = ~Mistrzowska zbroja skórzana ćwiekowana~
+@10149 = ~Magiczna zbroja skórzana~
+@10150 = ~Magiczna halabarda~
+@10151 = ~Mistrzowska tarcza mała~
+@10152 = ~Mistrzowska tarcza średnia~
+@10153 = ~Mistrzowska pawęż~
+@10154 = ~Czerwona tarcza~
+@10155 = ~Mistrzowski puklerz~
+@10156 = ~Magiczna tarcza mała~
+@10157 = ~Magiczna tarcza średnia~
+@10158 = ~Kołczan obfitości~
+@10159 = ~Kołczan obfitości
+Historia tego magicznego kołczana dawno już poszła w zapomnienie, choć prawdopodobnie miała ona coś wspólnego z trudnym do wyjaśnienia, lecz dobrze udokumentowanym brakiem dobrych wytwórców strzał podczas Czasu Niepokojów.
+
+PARAMETRY:
+
+Specjalne:
+– Nieograniczona liczba mistrzowskich strzał
+
+Waga: 0~
+@10160 = ~Futerał obfitości~
+@10161 = ~Futerał obfitości
+Historia tego magicznego futerału na bełty dawno już poszła w zapomnienie, choć prawdopodobnie miała ona coś wspólnego z trudnym do wyjaśnienia, lecz dobrze udokumentowanym brakiem dobrych wytwórców bełtów podczas Czasu Niepokojów.
+
+PARAMETRY:
+
+Specjalne:
+– Nieograniczona liczba mistrzowskich bełtów
+
+Waga: 0~
+@11062 = ~Mistrzowska maczuga~
+@10163 = ~Torba obfitości~
+@10164 = ~Torba obfitości
+Choć ta torba na pociski wyprodukowana z miękkiej tkaniny, jest teraz pusta, to wciąż otacza ją potężna magiczna aura.
+
+PARAMETRY:
+
+Specjalne:
+– Nieograniczona liczba mistrzowskich pocisków
+
+Waga: 0~
+@10165 = ~Magiczny topór bojowy~
+@10166 = ~Sztylet: Serce golema~
+@10167 = ~Magiczny sztylet~
+@10168 = ~Ostrze Suryrisa~
+@10169 = ~Młot bojowy: Ashideena~
+@10170 = ~Młot bojowy: Pięść Boroka~
+@10171 = ~Magiczna zbroja skórzana ćwiekowana~
+@10172 = ~Mistrzowska zbroja płytowa~
+@10173 = ~Mistrzowska pełna zbroja płytowa~
+@10174 = ~Magiczna pełna zbroja płytowa~
+@10175 = ~Magiczna pawęż~
+@10176 = ~Magiczna proca~
+@10177 = ~Varscona~
+@10178 = ~Gwiżdżący miecz~
+@10179 = ~Ostrze wody~
+@10180 = ~Magiczna wekiera~
+@10181 = ~Magiczna maczuga~
+@10182 = ~Bełt do kuszy drowow~
+@10183 = ~Magiczny ceb bojowy drowów~
+@10184 = ~Magiczna halabarda drowów~
+@10185 = ~Magiczna włócznia drowów~
+@10186 = ~Magiczny sejmitar drowów~
+@10187 = ~Magiczny długi łuk drowów~
+@10188 = ~Magiczny młot bojowy drowów~
+@10189 = ~Katana Yoshimo~
+@10190 = ~Magiczna kusza ciężka~
+@10191 = ~Magiczna kusza lekka~
+@10192 = ~Kołczan obfitości
+Historia tego magicznego kołczana dawno już poszła w zapomnienie, choć prawdopodobnie miała ona coś wspólnego z trudnym do wyjaśnienia, lecz dobrze udokumentowanym brakiem dobrych wytwórców strzał podczas Czasu Niepokojów.
+
+PARAMETRY:
+
+Specjalne:
+– Nieograniczona liczba magicznych strzał
+
+Waga: 0~
+@10193 = ~Futerał obfitości
+Historia tego magicznego futerału na bełty dawno już poszła w zapomnienie, choć prawdopodobnie miała ona coś wspólnego z trudnym do wyjaśnienia, lecz dobrze udokumentowanym brakiem dobrych wytwórców bełtów podczas Czasu Niepokojów.
+
+PARAMETRY:
+
+Specjalne:
+– Nieograniczona liczba magicznych bełtów
+
+Waga: 0~
+@10194 = ~Torba obfitości
+Choć ta torba na pociski wyprodukowana z miękkiej tkaniny, jest teraz pusta, to wciąż otacza ją potężna magiczna aura.
+
+PARAMETRY:
+
+Specjalne:
+– Nieograniczona liczba magicznych pocisków
+
+Waga: 0~
+@10195 = ~Kościana maczuga~
+@10196 = ~Zgniatacz~
+@10197 = ~Większy płaszcz ochrony~
+@10198 = ~Ostrze zmierzchu~
+@10199 = ~Fala~
+@10100 = ~Łamacz kolan~
+@10201 = ~Większy pierścień ochrony~
+@10202 = ~Lepszy pierścień ochrony~
+@10203 = ~Tarcza spadających gwiazd~
+@10204 = ~Przebijacz~
+@10205 = ~Włócznia zimorodka~
+@10206 = ~Kondar~
+@10207 = ~Szpon Rashada~
+@10208 = ~Magiczna zbroja płytowa~
+@10701	= ~ ~
+@1214 = ~WOJOWNIK: Wojownik to rycerz, fechmistrz, żołnierz i miłośnik bójek. Jego życie wypełnia poznawanie broni i taktyki. Można go spotkać nie tylko na polu bitwy, ale również walczącego twarzą w twarz z potworami. Dobry wojownik musi być silny i zdrowy – inaczej ma nikłe szanse na przetrwanie.
+CECHY KLASOWE:
+– Może nosić hełmy.
+– Może używać każdego typu broni i zbroi.
+- Może osiągnąć Prawdziwe mistrzostwo (cztery punkty biegłości) w każdym rodzaju broni.
+- Może osiągnąć Specjalizację (dwa punkty biegłości)w każdym stylu walki i Mistrzostwo (trzy punkty biegłości) w stylu walki dwoma broniami.
+– Kostka Wytrzymałości: k10
+
+Podstawowa cecha potrzebna przy dwuklasowości: Siła ~
+@1215 = ~ŁOWCA: Łowca to wojownik, myśliwy i leśnik. Biegle posługuje się bronią i jest wytrawnym znawcą lasu. Często chroni i pomaga zagubionym wędrowcom i uczciwym wieśniakom. Łowca musi być silny, mądry i znać naturę, by żyć pełnią życia.
+
+CECHY KLASOWE:
+- Może nosić hełmy.
+- Może używać każdego typu broni i zbroi.
+- Może osiągnąć Mistrzostwo (trzy punkty biegłości) w każdym rodzaju broni.
+- Może osiągnąć Specjalizację (dwa punkty biegłości) w broniach jednoręcznych i w stylu walki bronią oburęczną oraz Mistrzostwo (trzy punkty biegłości) w stylu walki dwoma broniami.
+- Zaczyna ze Specjalizacją (dwa punkty biegłości) w stylu walki dwoma broniami.
+– Może wybrać Wroga rasowego, w walce z którym będzie otrzymywał premię +4 do testów trafienia i obrażeń.
+– Może rzucać Zauroczenie zwierzęcia, raz dziennie co dwa poziomy (począwszy od jednego użycia na 1. poziomie).
+– Może Kryć się w cieniu, chyba że nosi zbroję cięższą niż skórzana ćwiekowana.
+– Może rzucać czary druida, począwszy od 8. poziomu.
+– Musi mieć charakter dobry.
+– Kostka Wytrzymałości: k10
+
+Podstawowe cechy potrzebne przy dwuklasowości: Siła, Zręczność i Mądrość.~
+@1216 = ~PALADYN: Paladyn to odważny i szlachetny rycerz; symbol wszystkiego co dobre i prawe. Jest jak wojownik nieodłącznie związany z walką, żyje jednak ideałami prawości, sprawiedliwości, uczciwości, pobożności i rycerskości. Stara się być żywym przykładem tych przymiotów, by inni mogli uczyć się od niego, podziwiając jego chwalebne czyny.
+
+CECHY KLASOWE:
+- Może nosić hełmy.
+- Może używać każdego typu broni i zbroi.
+- Może osiągnąć Mistrzostwo (trzy punkty biegłości) w każdym rodzaju broni.
+- Może osiągnąć Specjalizację (dwa punkty biegłości) w każdym stylu walki.
+– Może używać zdolności Nakładanie rąk raz dziennie, przywracając wybranej istocie 2 punkty życia na poziom w klasie paladyna.
+– Może rzucić Wykrycie zła, raz dziennie na poziom (zaczynając od trzech użyć na 1. poziomie).
+– Może rzucić Ochronę przed złem, raz dziennie na poziom (zaczynając od jednego użycia na 1. poziomie).
+– Może Odpędzać nieumarłych, jak kapłan o dwa poziomy niżej, począwszy od 3. poziomu.
+– Może rzucać czary kapłana, począwszy od 9. poziomu.
+– Otrzymuje premię +2 do wszystkich rzutów obronnych.
+– Musi mieć charakter praworządny dobry.
+– Kostka Wytrzymałości: k10
+~
+@1218 = ~DRUID: Druid jest sługą natury i neutralności oraz tego, co dzikie we wspólnocie. Wykorzystuje swe moce do chronienia i zachowania równowagi w świecie.
+
+CECHY KLASOWE:
+- Nie może nosić zbroi cięższej niż skórzana ćwiekowana, ani używać tarczy większej niż puklerz.
+- Może osiągnąć Specjalizację (dwa punkty biegłości) w dozwolonych broniach.
+- Może osiągnąć Specjalizację (dwa punkty biegłości) w stylach walki jedną bronią oraz bronią oburęczną.
+– 7. poziom: raz dziennie może przemieniać się w wilka, niedźwiedzia czarnego lub niedźwiedzia brunatnego.
+– 15. poziom: staje się niewrażliwy na trucizny.
+– 18. poziom: zyskuje +10% odporności na zimno, ogień, elektryczność i kwas, a następnie kolejne +10% na poziomie 21. i 24,
+– Musi mieć charakter neutralny.
+– Kostka Wytrzymałości: k8
+
+Podstawowe cechy potrzebne przy dwuklasowości: Mądrość i Charyzma.~
+@1219 = ~ZŁODZIEJ: Złodziej to zręczny łotrzyk, który stara się osiągnąć własne cele – dobre lub złe. Jego znakami rozpoznawczymi są spryt, zwinność i ciągłe krycie się w cieniu. Tylko od złodzieja zależy, czy wykorzysta swe talenty przeciw niewinnym wędrowcom, bogatym kupcom, potworom lub gnębiącej biedaków władzy.
+
+CECHY KLASOWE:
+- Nie może nosić zbroi cięższej niż skórzana ćwiekowana, ani używać tarcz większych niż puklerz.
+- Może osiągnąć Specjalizację (dwa punkty biegłości) w dozwolonych broniach.
+- Może osiągnąć Specjalizację (dwa punkty biegłości) w stylu walki jedną bronią oraz Mistrzostwo (trzy punkty biegłości) w stylu walki dwoma broniami.
+– Na każdym poziomie może rozdysponować 25 punktów (40 na 1. poziomie) w umiejętności złodziejskie: Otwieranie zamków, Kradzież kieszonkowa, Krycie się w cieniu, Ciche chodzenie, Wykrycie iluzji, Znajdowanie pułapek, Zastawianie pułapek.
+– Może użyć Ciosu w plecy by zwiększyć zadawane obrażenia:
+Poziom 1-4: x2
+Poziom 5-8: x3
+Poziom 9-12: x4
+Poziom 13+: x5
+– Może używać zdolności Zastawianie pułapek, raz dziennie. Otrzymuje jedno użycie na 1. poziomie i kolejne, co pięć poziomów.
+
+ZASTAWIANIE PUŁAPEK: Pozwala na skonstruowanie pułapki w wybranym miejscu, ale tylko wówczas, gdy nie ma w pobliżu innych stworzeń. Pułapki zakładane przez złodzieja są silniejsze wraz ze wzrostem jego poziomu doświadczenia i mogą zostać uruchomione jedynie przez wrogów. Właściwości pułapek według poziomu:
+1. poziom: zadaje 2k8 +5 obrażeń od pocisków.
+11. poziom: zadaje 2k8 +5 obrażeń od pocisków i dodatkowe 2k6 obrażeń od trucizny przez kolejne trzy rundy.
+16. poziom: zadaje 3k8 +5 obrażeń od pocisków i 4k8 +2 obrażeń od ognia.
+21. poziom: zadaje 3k8 +5 obrażeń od pocisków i 20 obrażeń od trucizny (bez rzutu obronnego). Cel musi wykonać rzut obronny przeciw śmierci z modyfikatorem +4 lub umrze.
+
+– Nie może być praworządny dobry
+– Kostka Wytrzymałości: k6
+
+Podstawowa cecha potrzebna przy dwuklasowości: Zręczność~
+@1220 = ~BARD: Bard również jest łotrzykiem, ale znacznie różniącym się od złodzieja. Jego siłą jest wdzięk i urocza osobowość. Z ich pomocą oraz z pomocą dowcipów kroczy przez świat. Bard to utalentowany muzyk i chodzący magazyn plotek, opowieści i wiedzy. Wie nieco o tym, co spotkał na swej drodze. Zna się właściwie na wszystkim, ale w niczym nie jest mistrzem. Wielu bardów to łajdacy, ale mimo to ich opowieści i pieśni są z radością witane niemal wszędzie.
+
+CECHY KLASOWE:
+- Nie może nosić zbroi cięższej niż kolczuga, ani używać tarcz większych niż puklerz (nie może rzucać czarów nosząc jakąkolwiek zbroję).
+- Może osiągnąć Specjalizację (dwa punkty biegłości) w broniach jednoręcznych.
+- Może osiągnąć Specjalizację (dwa punkty biegłości) w każdym stylu walki.
+– Umiejętności złodziejskie: Kradzież kieszonkowa.
+– Posiada zwiększony współczynnik Wiedzy.
+– Może rzucać zaklęcia wtajemniczeń, począwszy od 2. poziomu.
+– Może używać zdolności Pieśń barda. Kiedy jest aktywna, wywołuje następujące efekty:
+Przywraca morale do normalnego poziomu
+Działa jak zaklęcie Przełamanie strachu
+Zapewnia niewrażliwość na efekty związane ze strachem
+– Musi mieć dowolny neutralny charakter.
+– Kostka Wytrzymałości: k6
+~
+@1221 = ~MAG: Mag to mistrz magicznej energii, wykorzystujący ją i kształtujący w czary. Aby móc jednak to czynić, musi studiować dziwne języki i poznawać tajemnice – innymi słowy poświęcać większość swojego czasu na magiczne badania. Magowie wykorzystują swą wiedzę i mądrość. Rzadko kiedy poszukują przygód, jeśli u ich boku nie stoją wojownicy lub zbrojni. Istnieje wiele różnych rodzajów (szkół) magii, dlatego też jest wiele typów magów. Mag poznaje wszystkie szkoły magii i uczy się szerokiej gamy zaklęć. Znaczny zakres umiejętności czyni go doskonałym poszukiwaczem przygód.
+
+CECHY KLASOWE:
+- Nie może nosić żadnej zbroi.
+- Nie może osiągnąć poziomu wyższego niż Wyszkolenie (jeden punkt biegłości) w każdym rodzaju broni.
+– Nie może przydzielić ani jednego punktu biegłości w żadnym ze stylów walki.
+– Może rzucać zaklęcia wtajemniczeń.
+– Kostka Wytrzymałości: k4
+
+Podstawowa cecha potrzebna przy dwuklasowości: Inteligencja~ 
+@1222 = ~ Tabela Biegłości:
+
+1 punkt biegłości: podstawowa biegłość.
+
+2 punkty biegłości: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+
+3 punkty biegłości: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+
+4 punkty biegłości: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę
+~
+@1223 = ~Maczuga / wekiera~
+@1224 = ~Miecze wielkie~
+@1225 = ~...~
+@1226 = ~Sejmitar / katana~
+@1227 = ~Sztylet / strzałka~
+@1228 = ~Włócznia / halabarda~
+@1229 = ~Łuki~
+@1230 = ~MIECZ DŁUGI: To najpewniej jedna z najbardziej rozpowszechnionych broni w Faerûnie. Umiejętność władania mieczem długim zapewni postaci dostęp do ogólnie dostępnego i taniego oręża.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1231 = ~MIECZ KRÓTKI: Ulubiony oręż wielu złodziei i niziołków. Miecz krótki to lekka, lecz użyteczna broń.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1232 = ~TOPÓR BOJOWY: Istnieją dwa rodzaje toporów: rzucane i bojowe. Biegłość we władaniu tą bronią pozwoli postaci na korzystanie z obu.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1233 = ~MIECZE WIELKIE: Znakiem rozpoznawczym stereotypowego, napakowanego wojownika są wielkie miecze: claymory, miecze półtoraręczne oraz inne bronie obusieczne na tyle duże, by wymagały użycia obu rąk. Ten rodzaj biegłości pozwoli postaci rozłupywać swoich wrogów przy ich pomocy.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1234 = ~MIECZE ZAKRZYWIONE: Ten rodzaj biegłości pozwoli postaci na stosowanie wszelakiej broni jednosiecznej, wliczając w to sejmitary, katany oraz wakizashi.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1235 = ~SZTYLET: Sztyletów używają głównie złodzieje i czarodzieje. To mała broń, ale bardzo użyteczna. Może się przydać, jeśli ktoś ci ukradnie lub zniszczy dużą broń.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1236 = ~MŁOT BOJOWY: Ten rodzaj biegłości pozwoli postaci na używanie młotów do rzucania i bojowych. Oba te typy broni są powiązane z krasnoludami.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1237 = ~MACZUGA: Ten rodzaj biegłości pozwoli postaci na używanie maczug, jak również podobnych, lecz bardziej zaawansowanych broni z nią spokrewnionych.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1238 = ~BROŃ DRZEWCOWA: Ten rodzaj biegłości obejmuje włócznie, piki, halabardy oraz inne typy broni drzewcowej. Ich długie drzewce zapewnia atakującemu większy zasięg w walce z przeciwnikiem.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1239 = ~CEP BOJOWY: Cep bojowy to broń obuchowa służąca ogłuszaniu przeciwników. Jest trudna w użyciu, ale przy odpowiedniej praktyce staje się niezwykle skuteczna.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1240 = ~WEKIERA: Wekier używają zazwyczaj kapłani. To masywna broń obuchowa, podobna do maczugi, ale zadająca poważniejsze obrażenia.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1241 = ~KIJ: To prosta broń, ale w rękach dobrze wyszkolonego wojownika, niezależnie czy jest nim mag czy paladyn, kij może rozgromić każdego wroga.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1242 = ~KUSZA: Kusza jest mniejsza niż długi łuk, ale równie śmiercionośna w rękach dobrego strzelca.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1243 = ~ŁUK: Ten rodzaj biegłości pozwala postaci skutecznie używać wszelkich łuków, będących bronią łatwą w użyciu i o wysokiej szybkostrzelności.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1244 = ~PROCA: Choć o procy zazwyczaj myśli się jak o zabawce, ale nie należy jej niedoceniać. Kula wyrzucona z procy przez doświadczonego procarza potrafi wybić dziurę w czaszce dorosłego mężczyzny.
+
+2 gwiazdki: +1 do testów trafienia, +1 do obrażeń, +1/2 ataku na rundę.
+3 gwiazdki: +3 do testów trafienia, +2 do obrażeń, +1 atak na rundę.
+4 gwiazdki: +4 do testów trafienia, +4 do obrażeń, +1.5 ataku na rundę ~
+@1245 = ~STYL OBURĘCZNY: Inwestowanie w ten styl walki pozwala postaci lepiej posługiwać się broniami oburęcznymi, zadając nimi dotkliwsze obrażenia.
+
+Wyszkolenie (1 punkt): Postać otrzymuje premię +1 do TraK0 oraz obrażeń, -1 do opóźnienia, a trafienia krytyczne wykonuje przy rzucie 19 i 20 (a nie tylko 20).
+
+Specjalizacja (2 punkty): Premia postaci do TraK0 oraz obrażeń wzrasta do +2/+3, a trafienia krytyczne wykonuje przy rzucie równym 18 lub więcej.~
+@1246 = ~WALKA Z TARCZĄ: Wydając punkty w ten styl walki postać zwiększa ochronę zapewnianą przez tarczę i opanowuje trudności związane z jej koordynacją wraz z bronią. Wraz z dalszą Specjalizacją użycie tarczy zapewnia atak ogłuszający, odpychający przeciwników i ujawniający ich luki w obronie.
+
+Wyszkolenie (1 punkt): Postać otrzymuje premię +1 do KP przeciwko broni białej oraz premię +2 do KP przeciwko pociskom.
+
+Specjalizacja (2 punkty): Raz na rundę postać może wykonać Pchnięcie Tarczą, zadające 1k3 obrażeń oraz przewracające najbliższego przeciwnika w przypadku nieudanego rzutu obronnego przeciw zionięciom.
+
+UWAGA: Na każde 5 pięć poziomów postaci obrażenia Pchnięcia Tarczą wzrastają o 1k3, a kara do rzutu obronnego wzrasta o -1.~
+@1247 = ~SZERMIERKA: Inwestowanie w ten styl walki pozwala postaci zyskać na szybkości i precyzji w posługiwaniu się jedną bronią jednoręczną.
+
+Wyszkolenie (1 punkt): Postać otrzymuje premię +1 do TraK0, -2 do opóźnienia i +2 do rzutów obronnych przeciw zionięciom.
+
+Specjalizacja (2 punkty): Szybkość ataku postaci wzrasta o jeden atak na dwie rundy.~
+@1248 = ~biegłości~
+@1249 = ~STYL DWÓCH BRONI: Ten styl walki związany jest ze stosowaniem drugiej broni jednoręcznej (generalnie bardzo małej) razem z bronią główną. Walka w ten sposób jest szczególnie trudna, szczególnie większymi broniami; ataki mają obniżoną celność; jednakże jeżeli postać jest wyszkolona może używać drugiej broni zarówno ofensywnie, jak i defensywnie.
+Kiedy sztylet stosowany jest razem z inną średnią, bądź dużą bronią, postać ma -2 kary do Trak0; jeżeli razem stosowane są broń średnia oraz duża, bądź dwie duże kara wzrasta do -4. Średnie bronie oznaczają te, które zadają więcej niż 1k4 obrażeń, a mniej niż 1k8. Duże bronie to te, które zadają 1k8 bądź więcej obrażeń.
+
+Wyszkolenie (1 punkt): Walka sztyletem wraz z drugą bronią zapewnia premię -1 do KP przeciwko broni białej. Przy walce dwoma sztyletami premia wzrasta do -2.
+
+Specjalizacja (2 punkty): Użycie drugiej broni zapewnia jej dodatkowy atak z takim samym Trak0 jak broni głównej.
+
+UWAGA: Postać nie może używać drugiej broni do ataku, jeżeli nie posiada specjalizacji w tym stylu.~
+@1250 = ~Styl oburęczny~
+@1251 = ~Walka z tarczą~
+@1252 = ~Szermierka~
+@1253 = ~Styl dwóch broni~
+@1254 = ~Biegłości Anomena~
+@1255 = ~Użyj tej książki, by dać Anomenowi poprawne biegłości.~
+@1256 = ~Biegłości Imoen~
+@1257 = ~Użyj tej książki, by dać Imoen poprawne biegłości.~
+@1258 = ~Biegłości Nalii~
+@1259 = ~Użyj tej książki, by dać Nalii poprawne biegłości.~
+@1260 = ~Zapis treningu~
+@1261 = ~Ta książka zawiera zapis treningu twoimi broniami. Użyj jej z paska podręcznych przedmiotów, by uzyskać biegłości dla pierwszego poziomu twojej klasy (Doświadczeni BNi nie powinni jej używać).~ 
+@1291 = ~Wojownik ~
+@1292 = ~WOJOWNIK: Wojownik to rycerz, fechmistrz, żołnierz i miłośnik bójek. Jego życie wypełnia poznawanie broni i taktyki. Można go spotkać nie tylko na polu bitwy, ale również walczącego twarzą w twarz z potworami. Dobry wojownik musi być silny i zdrowy – inaczej ma nikłe szanse na przetrwanie.~
+@1294 = ~ŁOWCA: Łowca to wojownik, myśliwy i leśnik. Biegle posługuje się bronią i jest wytrawnym znawcą lasu. Często chroni i pomaga zagubionym wędrowcom i uczciwym wieśniakom. Łowca musi być silny, mądry i znać naturę, by żyć pełnią życia.~
+@12301 = ~Miecze wielkie~
+@12302 = ~Chcesz się szkolić w mieczach wielkich?~
+@12303 = ~Miecze długie~
+@12304 = ~ Chcesz się szkolić w mieczach długich?~
+@12305 = ~Miecze zakrzywione ~
+@12306 = ~ Chcesz się szkolić w mieczach zakrzywionych?~
+@12307 = ~Krótkie miecze~
+@12308 = ~Chcesz się szkolić w mieczach krótkich?~
+@12309 = ~Sztylety~
+@12310 = ~ Chcesz się szkolić w sztyletach~
+@12311 = ~Włócznie~
+@12312 = ~ Chcesz się szkolić we włóczniach?~
+@12313 = ~Kije~
+@12314 = ~ Chcesz się szkolić w kijach?~
+@12315 = ~Maczugi/Wekiery~
+@12316 = ~ Chcesz się szkolić w maczugach/wekierach?~
+@12317 = ~Młoty bojowe~
+@12318 = ~Chcesz się szkolić w młotach bojowych?~
+@12319 = ~Cepy bojowe~
+@12320 = ~ Chcesz się szkolić w cepach bojowych?~
+@12321 = ~Topory~
+@12322 = ~ Chcesz się szkolić w toporach?~
+@12323 = ~Łuki~
+@12324 = ~ Chcesz się szkolić w łukach?~
+@12325 = ~Kusze~
+@12326 = ~ Chcesz się szkolić w kuszach?~
+@12327 = ~Proce~
+@12328 = ~ Chcesz się szkolić w procach?~
+@12329 = ~Tak.~
+@12330 = ~Wybierz inną broń~
+@12351 = ~Wybierz broń, w której chcesz się szkolić:~
+@12352  = ~Choose a weapon proficiency:~
+@1400 = ~Ujednolicone rzuty obronne przeciw czarom~
+@1401 = ~Osłona przed śmiercią~
+@1402 = ~Osłona przed śmiercią
+Poziom: 4
+Zasięg: pole widzenia rzucającego czar
+Czas działania: 4 godziny
+Czas rzucania: 1 runda
+Obszar działania: 1 istota
+Rzut obronny: brak
+
+Czar ten chroni cel przed wszystkimi postaciami magii śmierci. Ochrona ta działa przez cały czas działania zaklęcia. Uwzględnić należy, ale nie tylko, takie czary jak: Słowo mocy: giń, Zaklęcie śmierci i Palec śmierci. Ponad to rzucający czar zyskuje premię +10 do rzutów obronnych przeciw śmierci.~
+@16001 = ~Czary / Zaczarowania~
+@16002 = ~Zionięcie / Unik~
+@16003 = ~Trucizna / Śmierć~
+@16004 = ~ Petryfikacja / Polimorfia: ~
+@16005 = ~ ~
+@1611 = ~ZABÓJCA MAGÓW: Ten wojownik przeszedł specjalne szkolenie w swojej sekcie, aby być jak najlepiej przygotowanym do ścigania i walki ze wszelkiego rodzaju magami.
+
+Zalety:
+- Każde trafienie powoduje, że przeciwnik będzie miał 10% szans na nieudane rzucenie czaru (efekty kolejnych trafień kumulują się).
+- +1 premii przeciwko wszystkim rzutom obronnym na 1. poziomie i co cztery następne poziomy.
+
+Wady:
+- Nie może posługiwać się żadnymi przedmiotami magicznymi, z wyjątkiem broni i zbroi.~
+@1615 = ~MNICH: Mnisi to wojownicy, którzy dążą do doskonałości zarówno poprzez czyny, jak i kontemplacje. To wszechstronni wojownicy, wyszkoleni szczególnie dobrze w walce bez broni i zbroi. Mnisi nie mogą rzucać czarów, ale posługują się unikalną magią: potrafią korzystać z delikatnej energii zwanej „ki”, która pozwala im dokonywać niewiarygodnych czynów. Najbardziej znaną umiejętnością mnicha jest ogłuszanie przeciwnika bez użycia broni.
+
+CECHY KLASOWE:
+
+– Nie może nosić żadnej zbroi. 
+– Może używać tylko jednoręcznych broni dostępnych dla klasy złodziei. 
+– Może osiągnąć Wyszkolenie (jeden punkt biegłości) w dowolnym rodzaju broni. 
+– Może osiągnąć Wyszkolenie (jeden punkt biegłości) w stylu walki pojedynczą bronią i nie może ćwiczyć innych stylów walki. 
+– Mnich posiada zwiększoną szybkość poruszania o 2, która wzrasta o kolejny punkt co pięć poziomów. 
+– Mnich może wykonać jeden atak pięścią na rundę i zyskuje dodatkowe 1/2 ataku co trzy poziomy. Wraz ze wzrostem poziomu doświadczenia rosną też obrażenia, jakie mnich zadaje, uderzając pięścią: 
+ Poziom 1-2: 1k6 
+ Poziom 3-5: 1k8 
+ Poziom 6-8: 1k10 
+ Poziom 9-14: 1k12 
+ Poziom 15+: 1k20 
+- +1 premii przeciwko wszystkim rzutom obronnym na 1. poziomie i co cztery następne poziomy.
+– Począwszy od 9. poziomu, pięść mnicha traktowana jest jako broń magiczna +1, dzięki czemu zyskuje on premię +1 do testów trafienia i obrażeń. Premia ta wrasta do: +2 na 12. poziomie, +3 na 15. i +4 na 25. poziomie. 
+– Mnich uzyskuje premię +2 do rzutów obronnych przeciw czarom.
+– Odbijanie pocisków: +1 do Klasy Pancerza przeciw pociskom, co trzy poziomy. 
+– Bazowa Klasa Pancerza mnicha wynosi 9 na 1. poziomie i wzrasta o 1, co dwa poziomy .
+– Ogłuszający cios, raz dziennie na cztery poziomy (zaczynając od jednego użycia na 1. poziomie)
+
+OGŁUSZAJĄCY CIOS: Wszystkie ataki w następnej rundzie ogłuszają przeciwnika (rzut obronny przeciw czarom neguje). Ta zdolność specjalna automatycznie modyfikuje normalny atak mnicha, nie trzeba specjalnie wybierać dla niej celu.
+
+– 5. poziom: Niewrażliwość na choroby i mnich nie może zostać spowolniony ani przyspieszony. 
+– 7. poziom: Nakładanie rąk, mnich może przywrócić samemu sobie 2 punkty życia na poziom.
+– 8. poziom: -1 do opóźnienia. 
+– 9. poziom: +1 do wszystkich rzutów obronnych, a ponadto mnich staje się niewrażliwy na uroki. 
+– 11. poziom: Niewrażliwość na trucizny. 
+– 12. poziom: Kolejne -1 do opóźnienia. 
+– 13. poziom: Mnich może rzucić Drżącą dłoń, raz dziennie.
+
+DRŻĄCA DŁOŃ: Zdolność ta zapewnia mnichowi jeden atak, który zabija przeciwnika (rzut obronny przeciw czarom neguje efekt działania drżącej dłoni). Ta zdolność specjalna automatycznie modyfikuje normalny atak mnicha, nie trzeba specjalnie wybierać dla niej celu.
+
+– 20. poziom: Mnich uzyskuje odporność na niemagiczną broń. 
+– Musi mieć charakter praworządny. 
+– Kostka Wytrzymałości: k8
+~
+@1618 = ~MNICH: Mnisi to wojownicy, którzy dążą do doskonałości zarówno poprzez czyny, jak i kontemplacje. To wszechstronni wojownicy, wyszkoleni szczególnie dobrze w walce bez broni i zbroi. Mnisi nie mogą rzucać czarów, ale posługują się unikalną magią: potrafią korzystać z delikatnej energii zwanej „ki”, która pozwala im dokonywać niewiarygodnych czynów. Najbardziej znaną umiejętnością mnicha jest ogłuszanie przeciwnika bez użycia broni.
+
+CECHY KLASOWE:
+
+– Nie może nosić żadnej zbroi. 
+– Może używać tylko jednoręcznych broni dostępnych dla klasy złodziei. 
+– Może osiągnąć Wyszkolenie (jeden punkt biegłości) w dowolnym rodzaju broni. 
+– Może osiągnąć Wyszkolenie (jeden punkt biegłości) w stylu walki pojedynczą bronią i nie może ćwiczyć innych stylów walki. 
+– Mnich posiada zwiększoną szybkość poruszania o 2, która wzrasta o kolejny punkt co pięć poziomów. 
+– Mnich może wykonać dwa ataki pięścią na rundę i zyskuje dodatkowe 1/2 ataku co trzy poziomy. Wraz ze wzrostem poziomu doświadczenia rosną też obrażenia, jakie mnich zadaje, uderzając pięścią:
+ Poziom 1-2: 1k3 
+ Poziom 3-5: 1k4 
+ Poziom 6-8: 1k5 
+ Poziom 9-11: 1k6 
+ Poziom 12-14: 1k7
+ Poziom 15-18: 1k8 
+ Poziom 19-24: 1k9 
+ Poziom 25+: 1k10
+- Mnich może wypełnić swoją pięść energią „ki”. Gdy to zrobi jego pięści zadają obrażenia obuchowe, traktowane są jako broń magiczna +1 oraz zadają dodatkowe +1 obrażeń od magii. Ta premia wzrasta na poziomach 9, 15 i 25.
+- +1 premii przeciwko wszystkim rzutom obronnym na 1. poziomie i co cztery następne poziomy.
+– Mnich uzyskuje premię +2 do rzutów obronnych przeciw czarom.
+– Odbijanie pocisków: +1 do Klasy Pancerza przeciw pociskom, co trzy poziomy. 
+– Bazowa Klasa Pancerza mnicha wynosi 9 na 1. poziomie i wzrasta o 1, co dwa poziomy.
+– Ogłuszający cios, raz dziennie na cztery poziomy (zaczynając od jednego użycia na 1. poziomie)
+
+OGŁUSZAJĄCY CIOS: Wszystkie ataki w następnej rundzie ogłuszają przeciwnika (rzut obronny przeciw czarom neguje). Ta zdolność specjalna automatycznie modyfikuje normalny atak mnicha, nie trzeba specjalnie wybierać dla niej celu.
+
+– 5. poziom: Niewrażliwość na choroby i mnich nie może zostać spowolniony ani przyspieszony. 
+– 7. poziom: Nakładanie rąk, mnich może przywrócić samemu sobie 2 punkty życia na poziom.
+– 8. poziom: -1 do opóźnienia. 
+– 9. poziom: +1 do wszystkich rzutów obronnych, a ponadto mnich staje się niewrażliwy na uroki. 
+– 11. poziom: Niewrażliwość na trucizny. 
+– 12. poziom: Kolejne -1 do opóźnienia. 
+– 13. poziom: Mnich może rzucić Drżącą dłoń, raz dziennie.
+
+DRŻĄCA DŁOŃ: Zdolność ta zapewnia mnichowi jeden atak, który zabija przeciwnika (rzut obronny przeciw czarom neguje efekt działania drżącej dłoni). Ta zdolność specjalna automatycznie modyfikuje normalny atak mnicha, nie trzeba specjalnie wybierać dla niej celu.
+
+– 20. poziom: Mnich uzyskuje odporność na niemagiczną broń. 
+– Musi mieć charakter praworządny. 
+– Kostka Wytrzymałości: k8~
+@2001 = ~SIŁA: Opisuje siłę mięśni bohatera, jego wytrzymałość i wytrwałość. Wysoka siła wpływa na zadawane obrażenia, szansę na trafienie oraz maksymalny udźwig. Jest podstawową cechą wojowników.
+
+Premie do walki wręcz:
+14: +1 do obrażeń
+15: +2 do obrażeń
+16: +1 TraK0, +2 do obrażeń
+17: +1 TraK0, +3 do obrażeń
+18: +1 TraK0, +4 do obrażeń
+18/xx: +2 TraK0, +4 do obrażeń (tylko wojownicy)
+19: +2 TraK0, +5 do obrażeń
+20: +2 TraK0, +6 do obrażeń
+21: +3 TraK0, +6 do obrażeń
+22: +3 TraK0, +7 do obrażeń
+23: +4 TraK0, +7 do obrażeń
+24: +4 TraK0, +8 do obrażeń
+25: +4 TraK0, +9 do obrażeń 
+~
+@2002 = ~ ZRĘCZNOŚĆ: Opisuje zwinność, refleks, koordynację i umiejętność zachowania równowagi. Wysoka zręczność wpływa na klasę pancerza postaci oraz szansę na trafienie bronią dystansową. Jest podstawową cechą złodziei.
+
+Premie:
+13: -1 do KP
+14: -1 do KP, +1 do TraK0 dla broni dystansowej
+15: -2 do KP, +1 do TraK0 dla broni dystansowej
+16: -2 do KP, +2 do TraK0 dla broni dystansowej, +1 do TraK0 dla broni białej
+17: -3 do KP, +2 do TraK0 dla broni dystansowej, +1 do TraK0 dla broni białej
+18: -4 do KP, +3 do TraK0 dla broni dystansowej, +1 do TraK0 dla broni białej
+19: -5 do KP, +3 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
+20: -6 do KP, +3 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
+21: -6 do KP, +4 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
+22: -7 do KP, +4 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
+23: -7 do KP, +4 do TraK0 dla broni dystansowej, +3 do TraK0 dla broni białej
+24: -8 do KP, +4 do TraK0 dla broni dystansowej, +3 do TraK0 dla broni białej
+25: -8 do KP, +5 do TraK0 dla broni dystansowej, +3 do TraK0 dla broni białej
+~
+@2003 = ~KONDYCJA: Opisuje ogólną budowę bohatera, jego stan zdrowia i fizyczną wytrzymałość na obrażenia, choroby i innego rodzaju trudy. Ta cecha jest ważna dla łowców.
+
+Premie:
+15: +1 punkt życia na poziom
+16: +2 punkty życia na poziom
+17: +3 punkty życia na poziom (tylko wojownicy)
+18: +4 punkty życia na poziom (tylko wojownicy)
+19: +5 punktów życia na poziom (tylko wojownicy) i regeneracja
+
+~
+@2004 = ~ INTELIGENCJA: Opisuje zdolność zapamiętywania, rozumowania i uczenia się. Wysoka inteligencja daje zwiększoną szansę na wykonaniu rzutów obronnych przeciwko zaklęciom zaczarowania i iluzji oraz potężniejszym czarom. Jest cechą podstawową magów.
+
+Uwaga: Postać z inteligencją niższą niż 9 jest analfabetą i nie potrafi korzystać ze zwojów oraz większości różdżek.
+
+Premie dla wszystkich:
+5: -4 do rzutów obronnych przeciw czarom
+6: -3 do rzutów obronnych przeciw czarom
+7: -2 do rzutów obronnych przeciw czarom
+8: -2 do rzutów obronnych przeciw czarom
+9: -1 do rzutów obronnych przeciw czarom
+10: -1 do rzutów obronnych przeciw czarom
+...
+15: +1 do rzutów obronnych przeciw czarom
+17: +2 do rzutów obronnych przeciw czarom
+19: +3 do rzutów obronnych przeciw czarom
+21: +4 do rzutów obronnych przeciw czarom
+23: +5 do rzutów obronnych przeciw czarom
+25: +6 do rzutów obronnych przeciw czarom
+
+Premie dla magów:
+13: +1 czar 1. poziomu
+14: +2 czary 1. poziomu
+15: +1 czar 2. poziomu
+16: +2 czary 2. poziomu
+17: +1 czar 3. poziomu
+18: +1 czar 4. poziomu
+19: +2 czary 3. poziomu
+20: +1 czar 5. poziomu
+21: +2 czary 4. poziomu
+22: +1 czar 6. poziomu
+23: +2 czary 5. poziomu
+24: +1 czar 7. poziomu
+25: +2 czary 6. poziomu
+~
+@2005 = ~ MĄDROŚĆ: Opisuje intuicję, zdolność osądu, zdrowy rozsądek i siłę woli bohatera. Jest podstawową cechą kapłanów, którzy dzięki niej zyskują dodatkowe zaklęcia.
+
+Premie dla wszystkich:
+
+5: -3 do rzutów obronnych przeciw polimorfii
+6: -3 do rzutów obronnych przeciw śmierci
+7: -2 do rzutów obronnych przeciw polimorfii
+8: -2 do rzutów obronnych przeciw śmierci
+9: -1 do rzutów obronnych przeciw polimorfii
+10: -1 do rzutów obronnych przeciw śmierci
+...
+15: +1 do rzutów obronnych przeciw polimorfii
+16: +1 do rzutów obronnych przeciw śmierci
+17: +2 do rzutów obronnych przeciw polimorfii
+18: +2 do rzutów obronnych przeciw śmierci
+19: +3 do rzutów obronnych przeciw polimorfii
+20: +3 do rzutów obronnych przeciw śmierci
+21: +4 do rzutów obronnych przeciw polimorfii
+22: +4 do rzutów obronnych przeciw śmierci
+23: +5 do rzutów obronnych przeciw polimorfii
+24: +5 do rzutów obronnych przeciw śmierci
+25: +6 do rzutów obronnych przeciw polimorfii
+
+Premie dla kapłanów i druidów:
+13: +1 czar 1. poziomu
+14: +1 czar 2. poziomu
+15: +1 czar 1. poziomu
+16: +1 czar 3. poziomu
+17: +1 czar 2. poziomu
+18: +1 czar 4. poziomu
+19: +1 czar 3. poziomu
+20: +1 czar 5. poziomu
+21: +1 czar 4. poziomu
+22: +1 czar 6. poziomu
+23: +1 czar 5. poziomu
+24: +1 czar 6. poziomu
+25: +1 czar 7. poziomu
+~
+@2006 = ~ CHARYZMA: Charyzma opisuje magnetyzm oraz hart ducha postaci. Odzwierciedla to, co w niektórych kulturach zwie się „karmą” albo „duszą”. Wysoka charyzma wpływa na rzuty obronne oraz szczęście. Jest to cecha istotna dla druidów, bardów i paladynów.
+
+Premie:
+5: -2 Szczęście, -3 Premia do rzutów obronnych przeciw zionięciom
+6: -2 do rzutów obronnych przeciw różdżkom
+7: -1 Szczęście
+8: -2 do rzutów obronnych przeciw zionięciom
+9: -1 do rzutów obronnych przeciw różdżkom
+10: -1 do rzutów obronnych przeciw zionięciom
+...
+14: +2% XP premia do doświadczenia
+15: +4% XP, +1 do rzutów obronnych przeciw zionięciom
+16: +6% XP, +1 do rzutów obronnych przeciw różdżkom
+17: +8% XP, +2 do rzutów obronnych przeciw zionięciom
+18: +10% XP, +2 do rzutów obronnych przeciw różdżkom, +1 Szczęście
+19: +12% XP, +3 do rzutów obronnych przeciw zionięciom
+20: +14% XP, +3 do rzutów obronnych przeciw różdżkom
+21: +16% XP, +4 do rzutów obronnych przeciw zionięciom
+22: +17% XP, +4 do rzutów obronnych przeciw różdżkom
+23: +18% XP, +2 Szczęście
+24: +19% XP, +5 do rzutów obronnych przeciw zionięciom
+25: +20% XP, +5 do rzutów obronnych przeciw różdżkom
+
+Premie dla bardów:
+13: +1 czar 1. poziomu
+14: +2 czary 1. poziomu
+15: +1 czar 2. poziomu
+16: +2 czary 2. poziomu
+17: +1 czar 3. poziomu
+18: +1 czar 4. poziomu
+19: +2 czary 3. poziomu
+20: +1 czar 5. poziomu
+21: +2 czary 4. poziomu
+22: +1 czar 6. poziomu
+23: +2 czary 5. poziomu
+25: +2 czary 1. poziomu
+
+Premie dla czarowników:
+13: +1 czar 1. poziomu
+14: +2 czary 1. poziomu
+15: +1 czar 2. poziomu
+17: +2 czary 2. poziomu
+18: +1 czar 3. poziomu
+20: +2 czary 3. poziomu
+21: +1 czar 4. poziomu
+23: +2 czary 4. poziomu
+24: +1 czar 5. poziomu
+~
+@2007 = ~KONDYCJA: Opisuje ogólną budowę bohatera, jego stan zdrowia i fizyczną wytrzymałość na obrażenia, choroby i innego rodzaju trudy. Ta cecha jest ważna dla łowców.
+
+Premie:
+14: minimalny rzut wynosi 2
+15: +1 punkt życia na poziom
+16: +2 punkty życia na poziom
+17: wolna regeneracja (2 punkty życia na godzinę)
+18: maksymalna ilość punktów życia na poziom
+19: +3 punkty życia na poziom (tylko wojownicy) i szybsza regeneracja (1 punkt życia na turę)
+20: szybsza regeneracja (2 punkty życia na turę)
+~
+@2008 = ~ZRĘCZNOŚĆ: Opisuje zwinność, refleks, koordynację i umiejętność zachowania równowagi. Wysoka zręczność wpływa na klasę pancerza postaci oraz szansę na trafienie bronią dystansową. Jest podstawową cechą złodziei
+
+Premie:
+13: -1 do KP
+14: -1 do KP, +1 do TraK0 dla broni dystansowej
+15: -2 do KP, +1 do TraK0 dla broni dystansowej
+16: -3 do KP, +1 do TraK0 dla broni dystansowej, +1 do TraK0 dla broni białej
+17: -4 do KP, +2 do TraK0 dla broni dystansowej, +1 do TraK0 dla broni białej
+18: -5 do KP, +2 do TraK0 dla broni dystansowej, +1 do TraK0 dla broni białej
+19: -6 do KP, +3 do TraK0 dla broni dystansowej, +1 do TraK0 dla broni białej
+20: -6 do KP, +3 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
+21: -7 do KP, +3 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
+22: -7 do KP, +4 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
+23: -8 do KP, +4 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
+24: -8 do KP, +4 do TraK0 dla broni dystansowej, +3 do TraK0 dla broni białej
+25: -9 do KP, +5 do TraK0 dla broni dystansowej, +3 do TraK0 dla broni białej
+~
+@2010 = ~ KONDYCJA: Opisuje ogólną budowę bohatera, jego stan zdrowia i fizyczną wytrzymałość na obrażenia, choroby i innego rodzaju trudy. Ta cecha jest ważna dla łowców.
+
+Premie:
+12: wojownicy zyskują +1 punkt życia na poziom
+14: +1 punkt życia na poziom (wojownicy +2)
+16: +2 punkty życia na poziom (wojownicy +3)
+18: +3 punkty życia na poziom (wojownicy +4)
+19: powolna regeneracja (2 pż na godzinę)
+20: +4 pż/poziom (wojownicy +5), regeneracja 1 pż/tura
+21: +4 pż/poziom (wojownicy +5), regeneracja 2 pż/tura
+22: +5 pż/poziom (wojownicy +6), regeneracja 1 pż/2 rundy
+23: +5 pż/poziom (wojownicy +6), regeneracja 1 pż/runda
+24: +6 pż/poziom (wojownicy +7), regeneracja 2 pż/runda
+25: +6 pż/poziom (wojownicy +8), regeneracja 1 pż/sekunda
+~
+@2011 = ~LUDZIE: Ludzie są dominującą rasą Faerûnu. Przewodzą najznaczniejszym imperiom i królestwom Zapomnianych Krain. Są chyba najbardziej tolerancyjną i towarzyską ze wszystkich ras, z wyjątkiem może niziołków. Ludzie mają tylko jedną zdolność specjalną – mogą należeć do dowolnej klasy. Ich statystyki mogą wynosić od 7 do 18.~
+@2012 = ~KRASNOLUDY: Krasnoludy są niskimi, krępymi osobnikami, łatwymi do rozpoznania po wzroście i posturze. Mają czerstwe policzki, ciemne oczy i takież włosy. Zazwyczaj są uparte i małomówne. Z chęcią oddają się ciężkiej pracy, nie posiadają za to za grosz poczucia humoru. Lubują się w piwie i miodzie, ale nade wszystko kochają złoto. W Krainach żyją cztery różne odłamy tej rasy: krasnoludy tarczowe, złote, dzikie i duergarowie.
+
+Krasnoludy posiadają następujące cechy:
+– Premia do +3 do rzutów obronnych przeciw truciznom/śmierci oraz polimorfii/petryfikacji (zależy od KON).
+– Infrawizja.
+– +10% do Otwierania zamków, +15% do Znajdowania pułapek, +5% do Wykrycia iluzji, +10% do Zastawiania pułapek.
+– +1 Kondycja, -1 Zręczność, -2 Charyzma.~
+@2013 = ~ELFY: Elfy są nieco niższe i szczuplejsze od ludzi. Twarze mają piękne i delikatne, a język melodyjny. Często uważa się je za lekkomyślne i oddalone od innych ras. Elfy interesuje piękno natury, taniec, zabawa, śpiewy i inne tym podobne rzeczy. Mają wyrafinowane poczucie humoru i takież same pieśni oraz poezję. W Krainach żyje sześć różnych odłamów tej rasy, elfy: złote, księżycowe, dzikie, morskie, mroczne (drowy) i skrzydlate (avariele)..
+
+Elfy posiadają następujące cechy:
+– 90% odporności przeciw zauroczeniom i magii usypiającej.
+– Infrawizja.
+– +1 do TraK0 podczas posługiwania się łukami oraz mieczami długimi i krótkimi.
+– -5% do Otwierania zamków, +5% do Kradzieży kieszonkowej, +5% do Cichego chodzenia, +10% do Krycia się w cieniu.
+- +1 Zręczność, +1 Inteligencja, –1 Siła, -2 Kondycja.~
+@2014 = ~GNOMY: Spokrewnione z krasnoludami gnomy są znacznie mniejsze niż ich odlegli kuzyni. Z dumą również zauważają, że nie są tak „krągłe” jak ich brodaci bracia. Większość gnomów ma ciemną lub brązową skórę, białe włosy i duże nosy. Charakteryzują się dość niezwykłym poczuciem humoru i przepadają za płataniem psikusów. Ich miłość do natury przewyższa jedynie uwielbienie szlachetnych kamieni i biżuterii. W Krainach istnieją dwie podrasy gnomów: skaliste oraz głębinowe (svirfnebliny).
+
+Gnomy posiadają następujące cechy:
+– Premia do +3 do rzutów obronnych przeciw czarom/truciznom/śmierci oraz polimorfii/petryfikacji (zależy od KON).
+– Infrawizja.
+– +5% do Otwierania zamków, +10% do Znajdowania pułapek, +5% do Cichego chodzenia, +5% do Krycia się w cieniu, +10% do Wykrycia iluzji, +5% do Zastawiania pułapek.
+- +1 Inteligencja, +1 Kondycja, -1 Siła, -2 Mądrość.~
+@2015 = ~NIZIOŁKI: Niziołki to niscy, pulchni osobnicy bardzo przypominający małych ludzi o krągłych i często rumianych twarzach. Mają zazwyczaj kręcone włosy, porastające również ich stopy. Zdecydowanie wolą domowe zacisze od niebezpieczeństw wiążących się z poszukiwaniem przygód. Kochają spokojne i dostatnie życie, dobrą zabawę i rodzinne opowieści. W Krainach żyją trzy odłamy niziołków: włosostopi, ogromniaści i mocarniaści.
+
+Niziołki posiadają następujące cechy:
+– Premia do +3 do rzutów obronnych przeciw truciznom/śmierci oraz polimorfii/petryfikacji (zależy od KON).
+– +1 do TraK0 podczas posługiwania się procami.
+– +5% do Otwierania zamków, +5% do Znajdowania pułapek, +5% do Kradzieży kieszonkowej, +10% do Cichego chodzenia, +15% do Krycia się w cieniu.
+- +1 Zręczność, +1 Charyzma –1 Inteligencja, -2 Siła.~ 
+@2016 = ~PÓŁELFY: Półelfy to wynik zmieszania krwi ludzi i elfów. Są bardzo przystojne i łączą w sobie zalety obu tych ras. Zazwyczaj posiadają ciekawość, pomysłowość i ambicje swych ludzkich przodków z wyrafinowanymi zmysłami, miłością do natury i artystycznymi zdolnościami elfów.
+
+Półelfy posiadają następujące cechy:
+– 30% odporności przeciw zauroczeniom i magii usypiającej.
+– Infrawizja.
+– +10% do Kradzieży kieszonkowej, +5% do Krycia się w cieniu.
+- +1 Charyzma, -1 Mądrość.~
+@2017 = ~PÓŁORKOWIE: Półorkowie rodzą się ze związku orka i człowieka. Mają wzrost ludzi, ale są masywniejsze. Zielonkawa skóra, cofnięte czoło, szeroka szczęka, pokaźne zęby i szorstkie owłosienie nie pozwalają im ukryć swojego pochodzenia. Na Wybrzeżu Mieczy toleruje się półorków, ponieważ nie prowadzono tam długotrwałych wojen z orkami tak jak w północnych krainach. Półorkowie znani są z dużej siły.
+
+Półorkowie posiadają następujące cechy:
+- Infrawizja.
+- +1 Siła, -1 Inteligencja, -2 Charyzma.~
+@2021   = ~~
+@2022   = ~~
+@2023   = ~~
+@2024   = ~~
+@2090  = ~Initial weapon proficiency~
+@2091  = ~Advance weapon proficiency~
+@2092  = ~Choose a different weapon~
+//
+@2101 = ~Awans na Wyszkolenie (+) w Mieczach Półtoraręcznych~
+@2102 = ~Awans na Wyszkolenie (+) w Mieczach Długich~
+@2103 = ~Awans na Wyszkolenie (+) w Mieczach Krótkich~
+@2104 = ~Awans na Wyszkolenie (+) w Toporach Bojowych~
+@2105 = ~Awans na Wyszkolenie (+) w Mieczach Dwuręcznych~
+@2106 = ~Awans na Wyszkolenie (+) w Katanach~
+@2107 = ~Awans na Wyszkolenie (+) w Sejmitarach~
+@2108 = ~Awans na Wyszkolenie (+) w Sztyletach~
+@2109 = ~Awans na Wyszkolenie (+) w Młotach Bojowych~
+@2110 = ~Awans na Wyszkolenie (+) we Włóczniach~
+@2111 = ~Awans na Wyszkolenie (+) w Halabardach~
+@2112 = ~Awans na Wyszkolenie (+) w Cepach Bojowych~
+@2113 = ~Awans na Wyszkolenie (+) we Wekierach~
+@2114 = ~Awans na Wyszkolenie (+) w Maczugach~
+@2115 = ~Awans na Wyszkolenie (+) w Kijach~
+@2116 = ~Awans na Wyszkolenie (+) w Kuszach~
+@2117 = ~Awans na Wyszkolenie (+) w Długich Łukach~
+@2118 = ~Awans na Wyszkolenie (+) w Krótkich Łukach ~
+@2119 = ~Awans na Wyszkolenie (+) w Strzałkach~
+@2120 = ~Awans na Wyszkolenie (+) w Procach~
+@2121 = ~Awans na Wyszkolenie (+) w Stylu Walki Bronią Dwuręczną~
+@2122 = ~Awans na Wyszkolenie (+) w Stylu Walki Mieczem i Tarczą~
+@2123 = ~Awans na Wyszkolenie (+) w Stylu Walki Jedną Bronią~
+@2124 = ~Awans na Wyszkolenie (+) w Stylu Walki Dwoma Broniami~
+//
+@2201 = ~Awans na Specjalizację (++) w Mieczach Półtoraręcznych~
+@2202 = ~Awans na Specjalizację (++) w Mieczach Długich~
+@2203 = ~Awans na Specjalizację (++) w Mieczach Krótkich~
+@2204 = ~Awans na Specjalizację (++) w Toporach Bojowych~
+@2205 = ~Awans na Specjalizację (++) w Mieczach Dwuręcznych~
+@2206 = ~Awans na Specjalizację (++) w Katanach~
+@2207 = ~Awans na Specjalizację (++) w Sejmitarach~
+@2208 = ~Awans na Specjalizację (++) w Sztyletach~
+@2209 = ~Awans na Specjalizację (++) w Młotach Bojowych~
+@2210 = ~Awans na Specjalizację (++) we Włóczniach~
+@2211 = ~Awans na Specjalizację (++) w Halabardach~
+@2212 = ~Awans na Specjalizację (++) w Cepach Bojowych~
+@2213 = ~Awans na Specjalizację (++) we Wekierach~
+@2214 = ~Awans na Specjalizację (++) w Maczugach~
+@2215 = ~Awans na Specjalizację (++) w Kijach~
+@2216 = ~Awans na Specjalizację (++) w Kuszach~
+@2217 = ~Awans na Specjalizację (++) w Długich Łukach ~
+@2218 = ~Awans na Specjalizację (++) w Krótkich Łukach ~
+@2219 = ~Awans na Specjalizację (++) w Strzałkach~
+@2220 = ~Awans na Specjalizację (++) w Procach~
+@2221 = ~Awans na Specjalizację (++) w Stylu Walki Bronią Dwuręczną~
+@2222 = ~Awans na Specjalizację (++) w Stylu Walki Mieczem i Tarczą~
+@2223 = ~Awans na Specjalizację (++) w Stylu Walki Jedną Bronią~
+@2224 = ~Awans na Specjalizację (++) w Stylu Walki Dwoma Broniami~
+//
+@2301 = ~Awans na Mistrzostwo (+++) w Mieczach Półtoraręcznych~
+@2302 = ~Awans na Mistrzostwo (+++) w Mieczach Długich~
+@2303 = ~Awans na Mistrzostwo (+++) w Mieczach Krótkich~
+@2304 = ~Awans na Mistrzostwo (+++) w Toporach Bojowych~
+@2305 = ~Awans na Mistrzostwo (+++) w Mieczach Dwuręcznych~
+@2306 = ~Awans na Mistrzostwo (+++) w Katanach~
+@2307 = ~Awans na Mistrzostwo (+++) w Sejmitarach~
+@2308 = ~Awans na Mistrzostwo (+++) w Sztyletach~
+@2309 = ~Awans na Mistrzostwo (+++) w Młotach Bojowych~
+@2310 = ~Awans na Mistrzostwo (+++) we Włóczniach~
+@2311 = ~Awans na Mistrzostwo (+++) w Halabardach~
+@2312 = ~Awans na Mistrzostwo (+++) w Cepach Bojowych~
+@2313 = ~Awans na Mistrzostwo (+++) we Wekierach~
+@2314 = ~Awans na Mistrzostwo (+++) w Maczugach~
+@2315 = ~Awans na Mistrzostwo (+++) w Kijach~
+@2316 = ~Awans na Mistrzostwo (+++) w Kuszach~
+@2317 = ~Awans na Mistrzostwo (+++) w Długich Łukach ~
+@2318 = ~Awans na Mistrzostwo (+++) w Krótkich Łukach ~
+@2319 = ~Awans na Mistrzostwo (+++) w Strzałkach~
+@2320 = ~Awans na Mistrzostwo (+++) w Procach~
+@2321 = ~Awans na Mistrzostwo (+++) w Stylu Walki Bronią Dwuręczną~
+@2322 = ~Awans na Mistrzostwo (+++) w Stylu Walki Mieczem i Tarczą~
+@2323 = ~Awans na Mistrzostwo (+++) w Stylu Walki Jedną Bronią~
+@2324 = ~Awans na Mistrzostwo (+++) w Stylu Walki Dwoma Broniami~
+//
+@2401 = ~Awans na Prawdziwe mistrzostwo (++++) w Mieczach Półtoraręcznych~
+@2402 = ~Awans na Prawdziwe mistrzostwo (++++) w Mieczach Długich~
+@2403 = ~Awans na Prawdziwe mistrzostwo (++++) w Mieczach Krótkich~
+@2404 = ~Awans na Prawdziwe mistrzostwo (++++) w Toporach Bojowych~
+@2405 = ~Awans na Prawdziwe mistrzostwo (++++) w Mieczach Dwuręcznych~
+@2406 = ~Awans na Prawdziwe mistrzostwo (++++) w Katanach~
+@2407 = ~Awans na Prawdziwe mistrzostwo (++++) w Sejmitarach~
+@2408 = ~Awans na Prawdziwe mistrzostwo (++++) w Sztyletach~
+@2409 = ~Awans na Prawdziwe mistrzostwo (++++) w Młotach Bojowych~
+@2410 = ~Awans na Prawdziwe mistrzostwo (++++) we Włóczniach~
+@2411 = ~Awans na Prawdziwe mistrzostwo (++++) w Halabardach~
+@2412 = ~Awans na Prawdziwe mistrzostwo (++++) w Cepach Bojowych~
+@2413 = ~Awans na Prawdziwe mistrzostwo (++++) we Wekierach~
+@2414 = ~Awans na Prawdziwe mistrzostwo (++++) w Maczugach~
+@2415 = ~Awans na Prawdziwe mistrzostwo (++++) w Kijach~
+@2416 = ~Awans na Prawdziwe mistrzostwo (++++) w Kuszach~
+@2417 = ~Awans na Prawdziwe mistrzostwo (++++) w Długich Łukach ~
+@2418 = ~Awans na Prawdziwe mistrzostwo (++++) w Krótkich Łukach ~
+@2419 = ~Awans na Prawdziwe mistrzostwo (++++) w Strzałkach~
+@2420 = ~Awans na Prawdziwe mistrzostwo (++++) w Procach~
+@2421 = ~Awans na Prawdziwe mistrzostwo (++++) w Stylu Walki Bronią Dwuręczną~
+@2422 = ~Awans na Prawdziwe mistrzostwo (++++) w Stylu Walki Mieczem i Tarczą~
+@2423 = ~Awans na Prawdziwe mistrzostwo (++++) w Stylu Walki Jedną Bronią~
+@2424 = ~Awans na Prawdziwe mistrzostwo (++++) w Stylu Walki Dwoma Broniami~
+//
+@2501 = ~Awans na Wielkie mistrzostwo (+++++) w Mieczach Półtoraręcznych~
+@2502 = ~Awans na Wielkie mistrzostwo (+++++) w Mieczach Długich~
+@2503 = ~Awans na Wielkie mistrzostwo (+++++) w Mieczach Krótkich~
+@2504 = ~Awans na Wielkie mistrzostwo (+++++) w Toporach Bojowych~
+@2505 = ~Awans na Wielkie mistrzostwo (+++++) w Mieczach Dwuręcznych~
+@2506 = ~Awans na Wielkie mistrzostwo (+++++) w Katanach~
+@2507 = ~Awans na Wielkie mistrzostwo (+++++) w Sejmitarach~
+@2508 = ~Awans na Wielkie mistrzostwo (+++++) w Sztyletach~
+@2509 = ~Awans na Wielkie mistrzostwo (+++++) w Młotach Bojowych~
+@2510 = ~Awans na Wielkie mistrzostwo (+++++) we Włóczniach~
+@2511 = ~Awans na Wielkie mistrzostwo (+++++) w Halabardach~
+@2512 = ~Awans na Wielkie mistrzostwo (+++++) w Cepach Bojowych~
+@2513 = ~Awans na Wielkie mistrzostwo (+++++) we Wekierach~
+@2514 = ~Awans na Wielkie mistrzostwo (+++++) w Maczugach~
+@2515 = ~Awans na Wielkie mistrzostwo (+++++) w Kijach~
+@2516 = ~Awans na Wielkie mistrzostwo (+++++) w Kuszach~
+@2517 = ~Awans na Wielkie mistrzostwo (+++++) w Długich Łukach ~
+@2518 = ~Awans na Wielkie mistrzostwo (+++++) w Krótkich Łukach ~
+@2519 = ~Awans na Wielkie mistrzostwo (+++++) w Strzałkach~
+@2520 = ~Awans na Wielkie mistrzostwo (+++++) w Procach~
+@2521 = ~Awans na Wielkie mistrzostwo (+++++) w Stylu Walki Bronią Dwuręczną~
+@2522 = ~Awans na Wielkie mistrzostwo (+++++) w Stylu Walki Mieczem i Tarczą~
+@2523 = ~Awans na Wielkie mistrzostwo (+++++) w Stylu Walki Jedną Bronią~
+@2524 = ~Awans na Wielkie mistrzostwo (+++++) w Stylu Walki Dwoma Broniami~
+//
+@2632 = ~Wybierz broń, w której chcesz się szkolić~
+@2648 = ~KENSAI: Ta klasa bywa także nazywana „świętymi miecza”. Należą do niej wojownicy, którzy zostali specjalnie wytrenowani tak, by stać się jednością ze swoją bronią. Są śmiertelnie szybcy i skuteczni. Szkoleni są do walki bez zbroi. 
+
+UWAGA: Przydział punktów biegłości w trakcie tworzenia postaci jest nieznaczący. Kiedy wybierzesz broń, w której chcesz się szkolić, automatycznie zaczniesz grę z poziomem Wyszkolenia w tej broni oraz w stylach walki jedną bronią, dwoma broniami oraz bronią oburęczną. 
+
+Zalety:
+- +1/2 ataku na rundę.
+– +1 do obrażeń, co cztery poziomy.
+- +1 do Klasy Pancerza, co sześć poziomów (począwszy od 1. poziomu).
+– Premia -1 do opóźnienia, co dziesięć poziomów.
+– Może używać dwa razy dziennie na dziesięć poziomów zdolności „kai” (zaczynając z jednym użyciem na 1. poziomie).
+
+KAI: Zdolność sprawia, że wszystkie celne ataki zadają przez kolejne dziesięć sekund maksymalne obrażenia.
+
+Wady:
+– Nie może używać zbroi.
+– Nie może używać broni dystansowych.
+– Nie może być dwuklasowcem.
+~
+

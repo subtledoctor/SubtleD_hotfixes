@@ -110,3 +110,7 @@ This is a proof-of-concept for having a weapon apply effects to that struck targ
 v20 Fix Temples Selling Greater Restoration
 
 This fixes a crash in some temple stores when you try to buy a cure. Some mod prevents JTweaks from copying in J8#GRNF.spl, and stores try to sell the missing spell. This hotfix simple adds the spell.
+
+v21 DLG_TST
+
+This is a test mod to debug a crashy dialogue in a forthcoming Scales of Balance component.
