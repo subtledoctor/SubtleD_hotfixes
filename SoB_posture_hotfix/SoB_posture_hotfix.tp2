@@ -1,0 +1,12 @@
+BACKUP ~SoB_posture_hotfix/backup~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~fix Cancel Postures ability~
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~d5cx115.spl~) BEGIN
+  COPY_EXISTING ~d5cx115.spl~ ~override~
+    LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 172 target = 1 timing = 1 STR_VAR resource = ~d5cx115~ END
+END

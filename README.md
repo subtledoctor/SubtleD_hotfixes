@@ -114,3 +114,9 @@ This fixes a crash in some temple stores when you try to buy a cure. Some mod pr
 v21 DLG_TST
 
 This is a test mod to debug a crashy dialogue in a forthcoming Scales of Balance component.
+
+v22 SoB Postures Fix
+
+This stops the 'cancel posture' innate ability from multiplying.
+
+This is irrelevant as of Scales of Balance v6.2.2.
