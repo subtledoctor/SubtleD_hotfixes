@@ -120,3 +120,7 @@ v22 SoB Postures Fix
 This stops the 'cancel posture' innate ability from multiplying.
 
 This is irrelevant as of Scales of Balance v6.2.2.
+
+v23 Bastard Sword Item Type hotfix
+
+If for some reason bastard swords are type 0, this will change them to type 69. For use only if Faiths & Powers and Scales of Balance are already installed.
