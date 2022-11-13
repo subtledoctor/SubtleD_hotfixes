@@ -124,3 +124,9 @@ This is irrelevant as of Scales of Balance v6.2.2.
 v23 Bastard Sword Item Type hotfix
 
 If for some reason bastard swords are type 0, this will change them to type 69. For use only if Faiths & Powers and Scales of Balance are already installed.
+
+v24 FnP Elemental HLA fixes
+
+This improves the function of the Elemental Transformation druid HLAs in Faiths & Powers, making sure that using the "Natural Form" ability fully removes all HLA effects. It also changes the 6th-level Conjure Water Elemental spell to actually summon a water elemental instead of a fire elemental. It also gives a non-gobbledegook name string to Ben-Hadar, the Water Elemental Prince, and also to small beetles, small spiders, and rhinocerous beetles.
+
+This will be irrelevant as of the full release of Faiths & Powers v0.85.
