@@ -130,3 +130,9 @@ v24 FnP Elemental HLA fixes
 This improves the function of the Elemental Transformation druid HLAs in Faiths & Powers, making sure that using the "Natural Form" ability fully removes all HLA effects. It also changes the 6th-level Conjure Water Elemental spell to actually summon a water elemental instead of a fire elemental. It also gives a non-gobbledegook name string to Ben-Hadar, the Water Elemental Prince, and also to small beetles, small spiders, and rhinocerous beetles.
 
 This will be irrelevant as of the full release of Faiths & Powers v0.85.
+
+v25 Fixes for Scales of Balance v6.3 Combat Skills
+
+This fixes the Parrying stances, the Leadership stance, and the Lore Bonus skill.
+
+This is irrelevant as of Scales of Balance v6.3.2.
