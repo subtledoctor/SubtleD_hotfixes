@@ -136,3 +136,10 @@ v25 Fixes for Scales of Balance v6.3 Combat Skills
 This fixes the Parrying stances, the Leadership stance, and the Lore Bonus skill.
 
 This is irrelevant as of Scales of Balance v6.3.2.
+
+v26 Add HoW-in-EET Hjollder to Bridge District 
+
+If tipun's HoW-in-EET mod is installed, this will add Hjollder to the Bridge District in hte BG2 campaign. He will still be in Ulgoth's Beard; if you ignore him there, you can play HoW in the SoA portion of the game. If you talk to Hjollder and play HoW in the BG1 portion, then Hjollder will disappear from the Bridge District.
+
+This is COMPLETELY untested!!
+
