@@ -143,3 +143,8 @@ If tipun's HoW-in-EET mod is installed, this will add Hjollder to the Bridge Dis
 
 This is COMPLETELY untested!!
 
+v27 Sleep fix for Spell Revisions v4b19rc1
+
+This should fix people waking up early from the Sleep spell.
+
+
