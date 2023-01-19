@@ -147,4 +147,9 @@ v27 Sleep fix for Spell Revisions v4b19rc1
 
 This should fix people waking up early from the Sleep spell.
 
+v28 MnG v5alpha12 Ninja ki abilities fix
+
+This fixes a mismatch in the files that prevents the Ninja kit from getting its ki pool abilities.
+
+This is irrelevant as of Might and Guile v5alpha12.9.
 
