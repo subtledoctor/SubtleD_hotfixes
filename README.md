@@ -153,3 +153,7 @@ This fixes a mismatch in the files that prevents the Ninja kit from getting its 
 
 This is irrelevant as of Might and Guile v5alpha12.9.
 
+v29 Fix Creature Script Names
+
+Some mod out there is altering various creatures' script names to "cre_strref." This hotfix changes the script name of all such creatures from "cre_strref" to their filename.
+

@@ -1,9 +1,0 @@
-BACKUP ~MnG_5a12_ninja_fix/backup~
-AUTHOR ~SubtleD~
-
-
-//do stuff__________________________________________________________________________
-//
-BEGIN ~fix Ninja Ki Pool abilities in MnG v5a12~
-
-COPY ~MnG_5a12_ninja_fix/d5kinin.spl~ ~override~

@@ -1,0 +1,30 @@
+BACKUP ~fix_cre_script_names/backup~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~fix bad CRE script names~
+
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.cre$~ ~override~
+  PATCH_IF (%SOURCE_SIZE% > 0x280) BEGIN
+    READ_ASCII 0x280 script_name
+    PATCH_IF (~%script_name%~ STRING_CONTAINS_REGEXP ~cre_str~) = 0 BEGIN
+      PATCH_PRINT ~%SOURCE_FILE%~
+      SPRINT $bad_cres(~%SOURCE_RES%~)~1~
+    END
+  END
+BUT_ONLY
+  
+ACTION_PHP_EACH bad_cres AS cre => ind BEGIN
+  COPY_EXISTING ~%cre%.cre~ ~override~
+    WRITE_ASCIIE 0x280 ~%SOURCE_RES%~ #8
+  IF_EXISTS BUT_ONLY
+END
+
+ACTION_PHP_EACH bad_cres AS cre => ind BEGIN
+  ACTION_IF (FILE_EXISTS ~override/%cre%.cre~) BEGIN
+    COPY ~override/%cre%.cre~ ~fix_cre_script_names/files~
+  END
+END
