@@ -157,3 +157,11 @@ v29 Fix Creature Script Names
 
 Some mod out there is altering various creatures' script names to "cre_strref." This hotfix changes the script name of all such creatures from "cre_strref" to their filename.
 
+v30 Fix SoB 'dirty fighting' combat skill
+
+This will fix the Scales of Balance 'dirty fighting' combat skill so that it affects enemies instead of allies. 
+
+This is irrelevant as of SoB v6.5alpha6
+
+
+
