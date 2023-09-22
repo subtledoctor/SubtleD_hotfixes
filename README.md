@@ -163,5 +163,8 @@ This will fix the Scales of Balance 'dirty fighting' combat skill so that it aff
 
 This is irrelevant as of SoB v6.5alpha6
 
+v31 Fix Elven Archer missing from kit menu
 
+This will add Might & Guile's Elven Archer kit to the elven ranger kit menu
 
+This is irrelevant and not needed as of MnG v5.3.3
