@@ -168,3 +168,8 @@ v31 Fix Elven Archer missing from kit menu
 This will add Might & Guile's Elven Archer kit to the elven ranger kit menu
 
 This is irrelevant and not needed as of MnG v5.3.3
+
+v32 Fix Scroll Cases
+
+This will allow Scroll Cases to accept all kinds of scrolls in games with SubtleDoctor's UMD modification
+
