@@ -173,3 +173,8 @@ v32 Fix Scroll Cases
 
 This will allow Scroll Cases to accept all kinds of scrolls in games with SubtleDoctor's UMD modification
 
+v33 Fix NPC_EE Proficiency Dialogues
+
+This will allow you to put more than one point into proficiencies when it is appropriate.
+
+This will be irrelevant as of NPC_EE v6.3
