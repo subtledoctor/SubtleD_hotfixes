@@ -178,3 +178,10 @@ v33 Fix NPC_EE Proficiency Dialogues
 This will allow you to put more than one point into proficiencies when it is appropriate.
 
 This will be irrelevant as of NPC_EE v6.3
+
+v34 Fix too Many Cantrips
+
+This will prevent innate cantrips from piling up, properly removing those that you do not intend to prepare in a given day.
+
+This should be irrelevant as of SubtleD's Spell Tweaks v2
+.6

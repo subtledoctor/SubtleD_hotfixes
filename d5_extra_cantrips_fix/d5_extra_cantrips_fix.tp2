@@ -1,0 +1,34 @@
+BACKUP ~d5_extra_cantrips_fix/backup~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~fix extra cantrips~
+
+
+OUTER_FOR (ind = 1; ind < 18; ++ind) BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~D5CT%ind%L.SPL~) BEGIN
+    COPY_EXISTING ~D5CT%ind%L.SPL~ ~override~
+      LPF ALTER_EFFECT INT_VAR match_opcode = 206 match_timing = 9 timing = 0 duration = 126144000 END
+    COPY_EXISTING ~d5ct%ind%i.spl~ ~override~
+      LPF ALTER_EFFECT INT_VAR match_opcode = 146 match_timing = 1 timing = 4 duration = 1 STR_VAR match_resource = EVAL ~d5ctpls~ END
+  END
+END
+
+COPY_EXISTING ~d5ctfsh.spl~ ~override~
+  LPF ALTER_EFFECT INT_VAR match_opcode = 146 timing = 4 duration = 2 STR_VAR match_resource = ~d5ctpls~ END
+IF_EXISTS
+
+COPY_EXISTING ~d5ctp00.spl~ ~override~
+  LPF ALTER_EFFECT INT_VAR match_opcode = 321 target = 1 END
+  LPF DELETE_EFFECT INT_VAR match_opcode = 172 target = 1 END
+  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 146 target = 1 parameter1 = 0 parameter2 = 1 timing = 1 STR_VAR resource = ~d5ct172~ END
+  LPF ALTER_EFFECT INT_VAR match_opcode = 146 match_timing = 1 timing = 4 duration = 1 END
+IF_EXISTS
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~d5ctp01.bam~) BEGIN
+  COPY_EXISTING ~d5ctp00.spl~ ~override/d5ctp01.spl~
+    LPF ALTER_SPELL_HEADER INT_VAR location = 4 STR_VAR icon = ~d5ctp01~ END
+  IF_EXISTS
+END
