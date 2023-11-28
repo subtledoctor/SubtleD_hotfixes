@@ -1,0 +1,11 @@
+BACKUP ~d5_no_proficiency_repeat/backup~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~remove proficiency ability~
+
+COPY_EXISTING ~d5iprxa.spl~ ~override~
+    LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 172 STR_VAR match_resource = ~d5iprx~ resource = ~d5iprxa~ END
+IF_EXISTS

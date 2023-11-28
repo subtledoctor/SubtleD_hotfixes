@@ -179,9 +179,15 @@ This will allow you to put more than one point into proficiencies when it is app
 
 This will be irrelevant as of NPC_EE v6.3
 
-v34 Fix too Many Cantrips
+v34 Fix Too Many Cantrips
 
 This will prevent innate cantrips from piling up, properly removing those that you do not intend to prepare in a given day.
 
-This should be irrelevant as of SubtleD's Spell Tweaks v2
-.6
+This should be irrelevant as of SubtleD's Spell Tweaks v2.6
+
+v35 Fix Proficiency Dialogue Not Disappearing
+
+This will fix the 'advance proficiency' dialogue from SubtleD's Stat Overhaul, which should be one-use-only but instead is once-per-day.
+
+This should be irrelevant as of SubtleD's Stat Overhauls v1.3.2
+
