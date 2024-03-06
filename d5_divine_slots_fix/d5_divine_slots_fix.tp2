@@ -10,7 +10,7 @@ BEGIN ~fix divine caster spell slots~
 	COUNT_2DA_COLS cols
 	READ_2DA_ENTRIES_NOW rows cols
 	FOR (row = 0; row < rows; ++row) BEGIN
-	  FOR (col = 1; col < 7; ++col) BEGIN
+	  FOR (col = 1; col < cols; ++col) BEGIN
 		READ_2DA_ENTRY_FORMER rows row col slots
 		PATCH_IF (slots > 0) BEGIN
 		  SET_2DA_ENTRY row col cols (slots + 2)
@@ -23,7 +23,7 @@ BEGIN ~fix divine caster spell slots~
 	COUNT_2DA_COLS cols
 	READ_2DA_ENTRIES_NOW rows cols
 	FOR (row = 0; row < rows; ++row) BEGIN
-	  FOR (col = 1; col < 7; ++col) BEGIN
+	  FOR (col = 1; col < cols; ++col) BEGIN
 		READ_2DA_ENTRY_FORMER rows row col slots
 		PATCH_IF (slots > 0) BEGIN
 		  SET_2DA_ENTRY row col cols (slots + 2)
@@ -36,7 +36,7 @@ BEGIN ~fix divine caster spell slots~
 	COUNT_2DA_COLS cols
 	READ_2DA_ENTRIES_NOW rows cols
 	FOR (row = 0; row < rows; ++row) BEGIN
-	  FOR (col = 1; col < 7; ++col) BEGIN
+	  FOR (col = 1; col < cols; ++col) BEGIN
 		READ_2DA_ENTRY_FORMER rows row col slots
 		PATCH_IF (slots > 0) BEGIN
 		  SET_2DA_ENTRY row col cols (slots + 2)
@@ -49,7 +49,7 @@ BEGIN ~fix divine caster spell slots~
 	COUNT_2DA_COLS cols
 	READ_2DA_ENTRIES_NOW rows cols
 	FOR (row = 0; row < rows; ++row) BEGIN
-	  FOR (col = 1; col < 7; ++col) BEGIN
+	  FOR (col = 1; col < cols; ++col) BEGIN
 		READ_2DA_ENTRY_FORMER rows row col slots
 		PATCH_IF (slots > 0) BEGIN
 		  SET_2DA_ENTRY row col cols (slots + 2)
