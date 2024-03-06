@@ -191,3 +191,8 @@ This will fix the 'advance proficiency' dialogue from SubtleD's Stat Overhaul, w
 
 This should be irrelevant as of SubtleD's Stat Overhauls v1.3.2
 
+v36 Fix Divine Spell Slots
+
+This will fix a bug in SubtleD's Stat Overhauls v1.5 which causes divine spellcasters to have fewer spell slots than they should. 
+
+This should be irrelevant as of SubtleD's Stat Overhauls v1.5.3
