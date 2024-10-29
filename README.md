@@ -196,3 +196,10 @@ v36 Fix Divine Spell Slots
 This will fix a bug in SubtleD's Stat Overhauls v1.5 which causes divine spellcasters to have fewer spell slots than they should. 
 
 This should be irrelevant as of SubtleD's Stat Overhauls v1.5.3
+
+v37 Psionic Lightning Fix
+
+This fixes a bug that prevents the "Generate Lightning" psionic power from working under certain circumstances.
+
+This should be irrelevent as of Will to Power v2.9.
+

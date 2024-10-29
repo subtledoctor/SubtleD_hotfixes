@@ -1,0 +1,15 @@
+BACKUP ~weidu_external/backup/d5_psi_lightning_fix~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~fix Generate Lightning ability~
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~d5ps309a.spl~) BEGIN
+  COPY_EXISTING ~d5ps309a.spl~ ~override/d5ps309b.spl~
+    LPF ALTER_EFFECT INT_VAR match_opcode = 12 dicenumber = 3 END
+  COPY_EXISTING ~d5ps309a.spl~ ~override/d5ps309c.spl~
+    LPF ALTER_EFFECT INT_VAR match_opcode = 12 dicenumber = 4 END
+END
+
