@@ -203,3 +203,8 @@ This fixes a bug that prevents the "Generate Lightning" psionic power from worki
 
 This should be irrelevent as of Will to Power v2.9.
 
+v38 Mirror Shard Fix
+
+This fixes a bug in version 0.3 of the Reflections of Destiny mod, which made the Mirror Shard unusable. 
+
+This is irrelevant as of Reflections of Destiny v0.4.
