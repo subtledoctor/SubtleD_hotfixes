@@ -208,3 +208,9 @@ v38 Mirror Shard Fix
 This fixes a bug in version 0.3 of the Reflections of Destiny mod, which made the Mirror Shard unusable. 
 
 This is irrelevant as of Reflections of Destiny v0.4.
+
+v39 Will to Power High Sciences fix
+
+This fixes a bug that prevents you receiving the chosen High Science psionic powers.
+
+This is irrelevant as of Will to Power v2.10
