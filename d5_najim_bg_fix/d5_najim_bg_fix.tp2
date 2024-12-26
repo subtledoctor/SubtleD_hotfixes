@@ -1,0 +1,19 @@
+BACKUP ~weidu_external/backup/d5_najim_bg_fix~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~fix Najim in ambush~
+
+ACTION_IF (MOD_IS_INSTALLED ~bp_in_bg.tp2~ ~100~) BEGIN
+
+ OUTER_SET najim_ambush_state = STATE_WHICH_SAYS 301 IN ~bp_in_bg/lang/%s/setup.tra~ FROM ~D5NAJIM~
+
+<<<<<<<< d5/nunajim.d
+REPLACE_STATE_TRIGGER D5NAJIM %najim_ambush_state% ~GlobalGT("D5_BP_Ambush_Trigger","GLOBAL",0) Global("BPINBG","GLOBAL",0)~
+>>>>>>>>
+
+ COMPILE ~d5/nunajim.d~ EVALUATE_BUFFER
+
+END
