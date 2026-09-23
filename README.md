@@ -213,10 +213,16 @@ v39 Will to Power High Sciences fix
 
 This fixes a bug that prevents you receiving the chosen High Science psionic powers.
 
-This is irrelevant as of Will to Power v2.10
+This is irrelevant as of Will to Power v2.10.
 
 v40 BP Ambush Najim dialogue fix
 
 This fixes a bug that may prevent the BP-in-BG ambush from happening. 
 
-This is irrelevant as of BP-in-BG v1.2
+This is irrelevant as of BP-in-BG v1.2.
+
+v41 Dual-Wielding Fix
+
+This fixes a bug that will make your thac0 worse by 1 point with the Revised Fighting Styles in CSP v1.5.4 and SoB v7.0
+
+This is irrelevant as of CSP v1.5.5 and Scales of Balance v7.0.1.

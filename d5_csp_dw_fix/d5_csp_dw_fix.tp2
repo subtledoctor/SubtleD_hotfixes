@@ -1,0 +1,23 @@
+BACKUP ~weidu_external/backup/d5_csp_dw_fix~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~fix dual-wielding~
+
+ACTION_IF (MOD_IS_INSTALLED ~combat_skill_proficiencies.tp2~ ~70~) OR (MOD_IS_INSTALLED ~scales_of_balance.tp2~ ~70~) BEGIN
+
+COPY_EXISTING ~stylbonu.2da~ ~override~
+  COUNT_2DA_COLS cols
+  SET_2DA_ENTRY 3 3 cols ~0~
+  SET_2DA_ENTRY 3 4 cols ~18~
+  SET_2DA_ENTRY 7 3 cols ~0~
+  SET_2DA_ENTRY 7 4 cols ~9~
+  SET_2DA_ENTRY 11 3 cols ~0~
+  SET_2DA_ENTRY 11 4 cols ~0~
+  SET_2DA_ENTRY 12 3 cols ~0~
+  SET_2DA_ENTRY 12 4 cols ~0~
+IF_EXISTS BUT_ONLY
+
+END
