@@ -1,0 +1,10 @@
+BACKUP ~weidu_external/backup/d5_elandro_fix~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~fix Elandro cut-scene~
+
+COPY_EXISTING ~d5_elandro_fix/D5C208A.BCS~ ~override~
+

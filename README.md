@@ -226,3 +226,9 @@ v41 Dual-Wielding Fix
 This fixes a bug that will make your thac0 worse by 1 point with the Revised Fighting Styles in CSP v1.5.4 and SoB v7.0
 
 This is irrelevant as of CSP v1.5.5 and Scales of Balance v7.0.1.
+
+v42 Elandro Fix
+
+This fixes a bug that can make a cut-scene with Elandro hang when Reflections of Destiny component #230 is installed.
+
+This is irrelevant as of RoD v0.9.4.
