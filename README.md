@@ -232,3 +232,9 @@ v42 Elandro Fix
 This fixes a bug that can make a cut-scene with Elandro hang when Reflections of Destiny component #230 is installed.
 
 This is irrelevant as of RoD v0.9.4.
+
+v43 Caelar key Fix
+
+This adds the Dragonspear Vault Key to Caelar in certain circumstances in which you might need her to have it, at the end of SoD. (The mod was targeting the wrong .,CRE file, possibly depending on the presence of other mods.)
+
+This is irrelevant as of RoD v0.9.6.

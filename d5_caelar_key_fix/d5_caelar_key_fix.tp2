@@ -1,0 +1,17 @@
+BACKUP ~weidu_external/backup/d5_elandro_fix~
+AUTHOR ~SubtleD~
+
+
+//do stuff__________________________________________________________________________
+//
+BEGIN ~fix Caelar not having the Vault Key~
+
+ACTION_IF (MOD_IS_INSTALLED ~Reflections_of_Destiny.tp2~ ~200~) BEGIN
+
+ ACTION_FOR_EACH caelar IN ~bdcaelar~ ~bdcaela2~ ~bdcaela3~ BEGIN
+  COPY_EXISTING ~%caelar%.cre~ ~override~
+    ADD_CRE_ITEM ~bdkey02~ #1 #0 #0 ~IDENTIFIED~ ~INV~
+  IF_EXISTS
+ END
+
+END
